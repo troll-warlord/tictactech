@@ -1,6 +1,8 @@
-{{ $sectionName := path.Base .Page.File.Dir }}
+{{ $sectionName := path.Base .Page.File.Dir }} {{ $platform :=
+.Page.Params.platform }}
+
 <div style="display: flex; align-items: center; margin-bottom: 20px">
-  <img src="{{ printf "images/%s.svg" $sectionName | absURL }}"
+  <img src="{{ printf "images/%s/%s.svg" $platform $sectionName | absURL }}"
   alt="{{.Page.LinkTitle }}" style="height: 60px; margin-right: 12px" />
   <h1 style="margin: 0">{{ .Page.LinkTitle }}</h1>
 </div>

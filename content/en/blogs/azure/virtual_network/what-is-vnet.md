@@ -4,7 +4,7 @@ linkTitle: "What is vnet"
 weight: 10
 type: docs
 tags: ["azure", "virtual network", "vnet", "networking"]
-provider: ["azure"]
+platform: azure
 # build:
 #   render: false
 ---

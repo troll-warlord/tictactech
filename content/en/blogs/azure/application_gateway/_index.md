@@ -1,10 +1,10 @@
 ---
 title: ""
-linkTitle: "Virtual Network"
+linkTitle: "Application Gateway"
 weight: 10
 type: docs
-tags: ["azure", "application gateway", "appgw", "compute"]
-provider: ["azure"]
+tags: ["azure", "application gateway", "appgw", "network"]
+platform: azure
 ---
 
 {{< service-header >}}

@@ -3,8 +3,8 @@ title: "What is load balancer"
 linkTitle: "What is load balancer"
 weight: 10
 type: docs
-tags: ["azure", "load_balancer", "lb", "network"]
-provider: ["azure"]
+tags: ["azure", "load balancer", "lb", "network"]
+platform: azure
 build:
   render: false
 ---

@@ -4,7 +4,7 @@ linkTitle: "Virtual Private Cloud"
 weight: 10
 type: docs
 tags: ["aws", "virtual private cloud", "vpc", "networking"]
-provider: ["aws"]
+platform: aws
 ---
 
 {{< service-header >}}

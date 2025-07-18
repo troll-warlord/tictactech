@@ -4,7 +4,7 @@ linkTitle: "Route 53"
 weight: 10
 type: docs
 tags: ["aws", "route 53", "networking"]
-provider: ["aws"]
+platform: aws
 ---
 
 {{< service-header >}}

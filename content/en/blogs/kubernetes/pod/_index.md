@@ -1,10 +1,8 @@
 ---
 title: ""
-linkTitle: "Cloud Front"
+linkTitle: "Pod"
 weight: 10
 type: docs
-tags: ["aws", "cloud front", "networking"]
-platform: aws
 ---
 
 {{< service-header >}}

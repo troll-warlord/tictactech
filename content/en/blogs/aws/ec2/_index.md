@@ -4,7 +4,7 @@ linkTitle: "EC2 Instances"
 weight: 10
 type: docs
 tags: ["aws", "ec2", "ec2 instance", "compute"]
-provider: ["aws"]
+platform: aws
 ---
 
 {{< service-header >}}

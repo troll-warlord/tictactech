@@ -9,6 +9,6 @@ Welcome to the TicTacTech blog — Learn AWS, Azure, and Kubernetes with real-wo
 {{% /blocks/cover %}}
 
 {{< blocks/section color="white" >}}
-{{< render-providers >}}
+{{< render-platforms >}}
 
 {{< /blocks/section >}}

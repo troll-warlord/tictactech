@@ -4,7 +4,7 @@ linkTitle: "Virtual Network"
 weight: 10
 type: docs
 tags: ["azure", "virtual network", "vnet", "networking"]
-provider: ["azure"]
+platform: azure
 ---
 
 {{< service-header >}}

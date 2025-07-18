@@ -1,8 +1,10 @@
 ---
 title: ""
-linkTitle: "Virtual Network"
+linkTitle: "Virtual Machine"
 weight: 10
 type: docs
+tags: ["azure", "virtual machine", "vm", "compute"]
+platform: azure
 ---
 
 {{< service-header >}}

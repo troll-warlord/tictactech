@@ -1,7 +1,7 @@
 <div class="row">
   {{ $blogsSection := site.GetPage "section" "blogs" }} {{ range
   $blogsSection.Sections }} {{ $sectionName := path.Base .Path }}
-  <div class="col-md-2 mb-6">
+  <div class="col-md-2 mb-3">
     <a
       href="{{ .RelPermalink }}"
       class="card text-center h-100 shadow-sm text-decoration-none"

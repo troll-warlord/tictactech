@@ -4,7 +4,7 @@ linkTitle: "Internet Gateway"
 weight: 10
 type: docs
 tags: ["aws", "internet gateway", "igw", "networking"]
-provider: ["aws"]
+platform: aws
 ---
 
 {{< service-header >}}

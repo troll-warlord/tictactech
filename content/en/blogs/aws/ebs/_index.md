@@ -4,7 +4,7 @@ linkTitle: "EBS Volumes"
 weight: 10
 type: docs
 tags: ["aws", "ebs", "ebs volume", "storage"]
-provider: ["aws"]
+platform: aws
 ---
 
 {{< service-header >}}
