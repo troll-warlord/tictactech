@@ -9,7 +9,7 @@
         class="card text-center h-100 shadow-sm text-decoration-none"
       >
         <div class="card-body">
-          <img src="{{ "/images/" | relURL }}{{ $sectionName }}.svg"
+          <img src="{{ "/images/" | absURL }}{{ $sectionName }}.svg"
           alt="{{.Title }}" style="height: 60px" />
           <h5 class="mt-3">{{ .LinkTitle }}</h5>
         </div>
