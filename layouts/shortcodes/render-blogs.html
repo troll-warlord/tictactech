@@ -1,0 +1,6 @@
+{{ range .Page.Pages.ByWeight }}
+<hr />
+<section class="blog-post mt-5">
+  <h3>{{ .Title }}</h3>
+</section>
+{{ .Content }} {{ end }}

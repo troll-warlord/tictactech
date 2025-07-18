@@ -1,0 +1,45 @@
+baseURL: "https://example.org/"
+languageCode: "en-us"
+title: "Tic Tac Tech"
+
+module:
+  proxy: "direct"
+  imports:
+    - path: "github.com/google/docsy"
+
+markup:
+  highlight:
+    style: "tango"
+  goldmark:
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+
+params:
+  enableSearch: true
+  offlineSearch: true
+
+  ui:
+    sidebar_search_disable: false
+    sidebar_menu_pre: true
+    sidebar_menu_foldable: true
+    sidebar_menu_compact: true
+    ul_show: 1
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+languages:
+  en:
+    contentDir: "content/en"
+    languageName: "English"
+    weight: 1
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  provider: "providers"

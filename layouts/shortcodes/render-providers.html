@@ -1,0 +1,20 @@
+<div class="row">
+  {{ $blogsSection := site.GetPage "section" "blogs" }} {{ range
+  $blogsSection.Sections }} {{ $sectionName := path.Base .Path }}
+  <div class="col-md-2 mb-6">
+    <a
+      href="{{ .RelPermalink }}"
+      class="card text-center h-100 shadow-sm text-decoration-none"
+    >
+      <div class="card-body">
+        <img
+          src="/images/{{ $sectionName }}.svg"
+          alt="{{ .Title }}"
+          style="height: 60px"
+        />
+        <h5 class="mt-3">{{ .LinkTitle }}</h5>
+      </div>
+    </a>
+  </div>
+  {{ end }}
+</div>
