@@ -18,7 +18,7 @@
       >
         <div class="card-body">
           <img
-            src="{{ "/images/" | absURL }}{{ $provider }}/{{ $sectionName }}.svg"
+            src="{{ printf "images/%s/%s.svg" $provider $sectionName | absURL }}"
             alt="{{ .Title }}"
             style="height: 60px"
           />
