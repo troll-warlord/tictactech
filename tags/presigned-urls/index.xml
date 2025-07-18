@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Presigned Urls on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/presigned-urls/</link><description>Recent content in Presigned Urls on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/presigned-urls/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/presigned-urls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/presigned-urls/</guid><description>&lt;h2 id="pre-signed-urls">Pre-signed URLs&lt;/h2>
+&lt;p>Pre-signed URLs grant temporary access to S3 objects without making them publicly accessible.&lt;/p>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Secure File Sharing&lt;/strong>: Share access to private files securely.&lt;/li>
+&lt;li>&lt;strong>Time-limited Uploads/Downloads&lt;/strong>: Limit access to specific time windows.&lt;/li>
+&lt;li>&lt;strong>API Integrations&lt;/strong>: Allow clients to upload files directly without exposing credentials.&lt;/li>
+&lt;/ul>
+&lt;p>Pre-signed URLs respect bucket permissions and expiry duration set during generation.&lt;/p></description></item></channel></rss>

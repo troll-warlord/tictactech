@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Object Versioning on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/object-versioning/</link><description>Recent content in Object Versioning on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/object-versioning/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/versioning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/versioning/</guid><description>&lt;h3 id="s3-versioning">S3 Versioning&lt;/h3>
+&lt;p>Amazon S3 &lt;strong>versioning&lt;/strong> is a feature that lets you preserve, retrieve, and restore every version of every object stored in a bucket. When versioning is enabled, S3 automatically stores a &lt;strong>new version&lt;/strong> of the object every time it is modified or deleted — rather than overwriting or removing it.&lt;/p>
+&lt;p>This adds an extra layer of data protection and recovery, especially against &lt;strong>accidental deletes or unintentional overwrites&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="how-versioning-works">How Versioning Works&lt;/h3>
+&lt;ul>
+&lt;li>Versioning is &lt;strong>enabled at the bucket level&lt;/strong>.&lt;/li>
+&lt;li>Once enabled, every object uploaded or modified will get a unique &lt;strong>version ID&lt;/strong>.&lt;/li>
+&lt;li>Deleting an object doesn’t remove it — instead, a &lt;strong>delete marker&lt;/strong> is added.&lt;/li>
+&lt;li>You can &lt;strong>retrieve or restore&lt;/strong> previous versions anytime.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="key-characteristics">Key Characteristics&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Version IDs&lt;/strong> are unique identifiers for each version of an object.&lt;/li>
+&lt;li>&lt;strong>Null version&lt;/strong>: Objects uploaded &lt;strong>before versioning is enabled&lt;/strong> have a null version.&lt;/li>
+&lt;li>Versioning cannot be fully disabled — only suspended once enabled.&lt;/li>
+&lt;li>Supports &lt;strong>lifecycle rules&lt;/strong> to manage older versions and clean up delete markers.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits-of-s3-versioning">Benefits of S3 Versioning&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Protection from Accidental Deletes&lt;/strong>&lt;/p></description></item></channel></rss>
