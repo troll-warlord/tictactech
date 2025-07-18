@@ -30,8 +30,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-hugomod-
 
-      - name: Install PostCSS dependencies
-        run: npm install postcss autoprefixer
+      - name: Install PostCSS and Autoprefixer
+        run: npm install
 
       - name: Build
         run: hugo --minify
