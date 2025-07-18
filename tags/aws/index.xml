@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aws on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/aws/</link><description>Recent content in Aws on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/aws/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/cloudfront/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/cloudfront/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
- &lt;img src="https://troll-warlord.github.io/tictactech/images/cloudfront.svg"
+ &lt;img src="https://troll-warlord.github.io/images/cloudfront.svg"
  alt="Cloud Front" style="height: 60px; margin-right: 12px" />
  &lt;h1 style="margin: 0">Cloud Front&lt;/h1>
 &lt;/div>
 
 &lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/ebs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/ebs/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
- &lt;img src="https://troll-warlord.github.io/tictactech/images/ebs.svg"
+ &lt;img src="https://troll-warlord.github.io/images/ebs.svg"
  alt="EBS Volumes" style="height: 60px; margin-right: 12px" />
  &lt;h1 style="margin: 0">EBS Volumes&lt;/h1>
 &lt;/div>
 
 &lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/ec2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/ec2/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
- &lt;img src="https://troll-warlord.github.io/tictactech/images/ec2.svg"
+ &lt;img src="https://troll-warlord.github.io/images/ec2.svg"
  alt="EC2 Instances" style="height: 60px; margin-right: 12px" />
  &lt;h1 style="margin: 0">EC2 Instances&lt;/h1>
 &lt;/div>
 
 &lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/igw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/igw/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
- &lt;img src="https://troll-warlord.github.io/tictactech/images/igw.svg"
+ &lt;img src="https://troll-warlord.github.io/images/igw.svg"
  alt="Internet Gateway" style="height: 60px; margin-right: 12px" />
  &lt;h1 style="margin: 0">Internet Gateway&lt;/h1>
 &lt;/div>
 
 &lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
- &lt;img src="https://troll-warlord.github.io/tictactech/images/nat_gw.svg"
+ &lt;img src="https://troll-warlord.github.io/images/nat_gw.svg"
  alt="NAT Gateway" style="height: 60px; margin-right: 12px" />
  &lt;h1 style="margin: 0">NAT Gateway&lt;/h1>
 &lt;/div>
 
 &lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/route_53/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/route_53/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
- &lt;img src="https://troll-warlord.github.io/tictactech/images/route_53.svg"
+ &lt;img src="https://troll-warlord.github.io/images/route_53.svg"
  alt="Route 53" style="height: 60px; margin-right: 12px" />
  &lt;h1 style="margin: 0">Route 53&lt;/h1>
 &lt;/div>
 
 &lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
- &lt;img src="https://troll-warlord.github.io/tictactech/images/s3.svg"
+ &lt;img src="https://troll-warlord.github.io/images/s3.svg"
  alt="S3" style="height: 60px; margin-right: 12px" />
  &lt;h1 style="margin: 0">S3&lt;/h1>
 &lt;/div>
@@ -43,7 +43,7 @@
 &lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title>What are teirs in s3</title><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/s3-teirs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/s3-teirs/</guid><description>&lt;h4 id="we-need-s3-teirs">we need s3 teirs&lt;/h4>
 &lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p>
 &lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/virtual_private_cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/virtual_private_cloud/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
- &lt;img src="https://troll-warlord.github.io/tictactech/images/virtual_private_cloud.svg"
+ &lt;img src="https://troll-warlord.github.io/images/virtual_private_cloud.svg"
  alt="Virtual Private Cloud" style="height: 60px; margin-right: 12px" />
  &lt;h1 style="margin: 0">Virtual Private Cloud&lt;/h1>
 &lt;/div>
