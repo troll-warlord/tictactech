@@ -30,23 +30,27 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-hugomod-
 
-      # - name: Build
-      #   run: hugo --minify
+      - name: Install PostCSS dependencies
+        run: npm install postcss autoprefixer
 
-      # - name: Deploy
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./public
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: live
 
       # - name: Install dependencies
       #   run: npm install
 
-      - name: Run deploy script
-        env:
-          GIT_USER_NAME: "github-actions[bot]"
-          GIT_USER_EMAIL: "github-actions[bot]@users.noreply.github.com"
-          GH_TOKEN: ${{ secrets.GH_ALPHABETS_PAT }}
-        run: |
-          chmod +x deploy.sh
-          ./deploy.sh
+      # - name: Run deploy script
+      #   env:
+      #     GIT_USER_NAME: "github-actions[bot]"
+      #     GIT_USER_EMAIL: "github-actions[bot]@users.noreply.github.com"
+      #     GH_TOKEN: ${{ secrets.GH_ALPHABETS_PAT }}
+      #   run: |
+      #     chmod +x deploy.sh
+      #     ./deploy.sh
