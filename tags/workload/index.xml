@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workload on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/workload/</link><description>Recent content in Workload on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/workload/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/daemonset/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/daemonset/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/daemonset.svg"
+ alt="DaemonSet" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">DaemonSet&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>DaemonSet&lt;/strong> in Kubernetes ensures that a specific pod is &lt;strong>running on every (or selected) node&lt;/strong> in a cluster. It&amp;rsquo;s typically used for deploying background system services like log collectors, monitoring agents, or storage daemons that must be present on all nodes.&lt;/p>
+&lt;p>When a new node is added to the cluster, the DaemonSet controller automatically schedules the DaemonSet pod on it — making DaemonSet ideal for cluster-wide infrastructure agents.&lt;/p></description></item><item><title>Kubernetes Deployment</title><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/deployment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/deployment/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/deployment.svg"
+ alt="Deployment" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Deployment&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Deployment&lt;/strong> in Kubernetes manages stateless applications by declaratively maintaining the desired number of pod replicas and orchestrating rolling updates. It abstracts away manual pod management and provides robust mechanisms for scaling, rollback, and version control of application workloads.&lt;/p>
+&lt;p>Deployments are the most commonly used controller in Kubernetes for running web services, APIs, and microservices.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-deployment">Benefits of Deployment&lt;/h3>
+&lt;h4 id="declarative-and-reproducible">Declarative and Reproducible&lt;/h4>
+&lt;p>Deployments define the desired state of an application — including image versions, replica counts, labels, and update strategies — in a YAML manifest. Kubernetes ensures the actual cluster state matches the desired state, offering a clean GitOps-compatible way to manage workloads.&lt;/p></description></item><item><title>Kubernetes Horizontal Pod Autoscaler</title><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/horizontal_pod_autoscaler/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/horizontal_pod_autoscaler/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/horizontal_pod_autoscaler.svg"
+ alt="Horizontal Pod Autoscaler" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Horizontal Pod Autoscaler&lt;/h2>
+&lt;/div>
+
+&lt;p>The &lt;strong>Horizontal Pod Autoscaler (HPA)&lt;/strong> in Kubernetes automatically scales the number of pod replicas in a deployment, statefulset, or replicaset based on real-time metrics like &lt;strong>CPU utilization&lt;/strong>, &lt;strong>memory&lt;/strong>, or custom metrics. It adjusts workloads dynamically to meet demand and optimize resource usage.&lt;/p>
+&lt;p>HPA is a native Kubernetes mechanism to ensure your apps scale out under load and scale in when idle.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/job/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/job/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/job.svg"
+ alt="Job" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Job&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Kubernetes Job&lt;/strong> ensures that a &lt;strong>pod completes successfully&lt;/strong> one or more times. It&amp;rsquo;s used for &lt;strong>batch and short-lived tasks&lt;/strong> like data processing, backups, or report generation — in contrast to Deployments which manage long-running services.&lt;/p>
+&lt;p>Jobs handle &lt;strong>retry logic&lt;/strong>, &lt;strong>completion tracking&lt;/strong>, and &lt;strong>parallel executions&lt;/strong>, giving you control over how and when pods run until their tasks finish.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-jobs">Benefits of Jobs&lt;/h3>
+&lt;h4 id="guaranteed-task-completion">Guaranteed Task Completion&lt;/h4>
+&lt;p>Jobs run pods until the specified number of successful completions is reached. If a pod fails, the Job controller retries with a new pod — ensuring eventual success without manual intervention.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/pod/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/pod/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/pod.svg"
+ alt="Pod" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Pod&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Pod&lt;/strong> is the &lt;strong>smallest deployable unit&lt;/strong> in Kubernetes. It represents &lt;strong>a single instance of a running process&lt;/strong>, often wrapping one or more tightly coupled containers that share the same network and storage context.&lt;/p>
+&lt;p>Most of the time, a pod runs just &lt;strong>one container&lt;/strong> (single-container pod), but you can run &lt;strong>sidecars&lt;/strong> by adding multiple containers.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-pods">Benefits of Pods&lt;/h3>
+&lt;h4 id="unified-runtime-environment">Unified Runtime Environment&lt;/h4>
+&lt;p>Containers in a pod share the &lt;strong>same network namespace&lt;/strong> and &lt;strong>volumes&lt;/strong>, making it easy to communicate over &lt;code>localhost&lt;/code> and share data.&lt;/p></description></item></channel></rss>

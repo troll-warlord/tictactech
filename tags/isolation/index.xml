@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Isolation on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/isolation/</link><description>Recent content in Isolation on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/isolation/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/virtual_private_cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/virtual_private_cloud/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/virtual_private_cloud.svg"
+ alt="Amazon VPC" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Amazon VPC&lt;/h2>
+&lt;/div>
+
+&lt;p>Amazon Virtual Private Cloud (VPC) lets you provision a logically isolated network within AWS where you can launch resources in a fully controlled environment. It provides granular control over IP address ranges, subnets, routing, NAT, security groups, and more.&lt;/p>
+&lt;p>VPC is the foundational networking layer in AWS, enabling secure and segmented architectures for a wide range of applications.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/virtual_network/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/virtual_network/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/azure/virtual_network.svg"
+ alt="Virtual Network (VNet)" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Virtual Network (VNet)&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>Azure Virtual Network (VNet)&lt;/strong> is the foundational building block of networking in Azure. It provides &lt;strong>logical network isolation&lt;/strong>, enabling you to securely run virtual machines, containers, and applications while maintaining complete control over IP addressing, DNS, routing, and network security.&lt;/p>
+&lt;p>VNets are analogous to traditional &lt;strong>on-premises networks&lt;/strong>, but with the added scalability, flexibility, and ease of integration that Azure provides.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/namespace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/namespace/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/namespace.svg"
+ alt="Namespace" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Namespace&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Kubernetes Namespace&lt;/strong> is a way to &lt;strong>logically isolate resources&lt;/strong> in a single cluster. It’s like a virtual sub-cluster within the main cluster, allowing teams, applications, or environments to operate independently — but still share the underlying infrastructure.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-namespaces">Benefits of Namespaces&lt;/h3>
+&lt;h4 id="resource-isolation">Resource Isolation&lt;/h4>
+&lt;p>Separate teams or workloads can have their own space, reducing the risk of accidental interference. Dev, test, and prod environments can all coexist without stepping on each other’s toes.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/network_policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/network_policy/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/network_policy.svg"
+ alt="Network Policy" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Network Policy&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>NetworkPolicy&lt;/strong> in Kubernetes defines &lt;strong>rules for traffic flow&lt;/strong> at the IP level between pods and/or namespaces. It acts as a virtual firewall, specifying &lt;strong>who can talk to whom&lt;/strong> and over which ports/protocols.&lt;/p>
+&lt;p>By default, pods are non-isolated — they accept traffic from any source. Once a NetworkPolicy is applied, only explicitly allowed traffic is permitted.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-networkpolicy">Benefits of NetworkPolicy&lt;/h3>
+&lt;h4 id="pod-level-security">Pod-Level Security&lt;/h4>
+&lt;p>Restrict incoming and outgoing traffic to/from specific pods. This minimizes the blast radius in case of a breach.&lt;/p></description></item></channel></rss>

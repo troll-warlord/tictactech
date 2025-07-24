@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database Credentials on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/database-credentials/</link><description>Recent content in Database Credentials on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/database-credentials/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/secrets_manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/secrets_manager/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/secrets_manager.svg"
+ alt="Secrets Manager" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Secrets Manager&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Secrets Manager&lt;/strong> lets you securely store, retrieve, and rotate &lt;strong>database credentials&lt;/strong>, API keys, and other secrets.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="key-features">Key Features&lt;/h3>
+&lt;ul>
+&lt;li>Automatic &lt;strong>rotation&lt;/strong> for RDS and other secrets.&lt;/li>
+&lt;li>&lt;strong>Encryption at rest&lt;/strong> with AWS KMS.&lt;/li>
+&lt;li>Fine-grained &lt;strong>IAM permissions&lt;/strong>.&lt;/li>
+&lt;li>Integrated with &lt;strong>Lambda&lt;/strong> for custom rotation.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>Centralized secrets storage.&lt;/li>
+&lt;li>Secure &lt;strong>audit trail&lt;/strong> via CloudTrail.&lt;/li>
+&lt;li>Removes hardcoding credentials in apps.&lt;/li>
+&lt;li>Version control and staging labels.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Store and rotate DB passwords.&lt;/li>
+&lt;li>Secure access tokens for external APIs.&lt;/li>
+&lt;li>Inject secrets into Lambda or ECS tasks at runtime.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Enable &lt;strong>auto-rotation&lt;/strong> where possible.&lt;/li>
+&lt;li>Use &lt;strong>resource-based policies&lt;/strong> to restrict access.&lt;/li>
+&lt;li>Rotate secrets manually if auto-rotation isn’t supported.&lt;/li>
+&lt;li>Encrypt using &lt;strong>customer-managed KMS keys&lt;/strong> for full control.&lt;/li>
+&lt;/ul></description></item></channel></rss>

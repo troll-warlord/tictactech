@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Iptables on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/iptables/</link><description>Recent content in Iptables on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/iptables/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/kube_proxy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/kube_proxy/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/kube_proxy.svg"
+ alt="Kube Proxy" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Kube Proxy&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>kube-proxy&lt;/strong> is a core component that runs on &lt;strong>every Kubernetes node&lt;/strong>. It manages the virtual network rules that allow &lt;strong>Pods to communicate with Services&lt;/strong>, handling routing and forwarding at the &lt;strong>network layer&lt;/strong> using mechanisms like &lt;strong>iptables&lt;/strong>, &lt;strong>ipvs&lt;/strong>, or &lt;strong>eBPF&lt;/strong>.&lt;/p>
+&lt;p>It’s the silent worker that makes service discovery and networking possible within the cluster.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="key-responsibilities">Key Responsibilities&lt;/h3>
+&lt;h4 id="virtual-ip-and-port-forwarding">Virtual IP and Port Forwarding&lt;/h4>
+&lt;p>When a Service is created, kube-proxy sets up rules to forward traffic from the &lt;strong>cluster IP and port&lt;/strong> to one of the associated pods. This load balancing is transparent and efficient.&lt;/p></description></item></channel></rss>

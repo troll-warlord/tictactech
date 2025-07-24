@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kubernetes on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/kubernetes/</link><description>Recent content in Kubernetes on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/api_server/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/api_server/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/api_server.svg"
+ alt="API Server" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">API Server&lt;/h2>
+&lt;/div>
+
+&lt;p>The &lt;strong>Kubernetes API Server&lt;/strong> is the central control plane component that exposes the Kubernetes API. All internal and external communication with the cluster—whether it&amp;rsquo;s deploying a new pod, querying resources, or applying a config change—goes through the API Server. It acts as the &lt;strong>front door&lt;/strong> to the cluster, validating and processing REST requests, and then persisting the resource state in &lt;code>etcd&lt;/code>.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/azure_kubernetes_service/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/azure_kubernetes_service/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/azure/azure_kubernetes_service.svg"
+ alt="Azure Kubernetes Service" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Azure Kubernetes Service&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>Azure Kubernetes Service (AKS)&lt;/strong> is a fully managed Kubernetes service by Microsoft Azure. It simplifies deploying, managing, and scaling containerized applications using Kubernetes in the cloud.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-aks">Benefits of AKS&lt;/h3>
+&lt;h4 id="fully-managed-control-plane">Fully Managed Control Plane&lt;/h4>
+&lt;p>Azure handles the Kubernetes control plane, including upgrades, patching, and security — reducing operational overhead.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cloud_controller_manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cloud_controller_manager/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/cloud_controller_manager.svg"
+ alt="Cloud Controller Manager" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Cloud Controller Manager&lt;/h2>
+&lt;/div>
+
+&lt;p>The &lt;strong>Cloud Controller Manager&lt;/strong> (CCM) is a Kubernetes control plane component that enables integration with cloud-specific infrastructure. It allows Kubernetes to interact with your cloud provider’s APIs to provision and manage resources such as load balancers, block storage, and network routes.&lt;/p>
+&lt;p>Before the CCM existed, cloud provider logic was bundled into the core Kubernetes binaries. The CCM separates this logic, allowing cloud vendors to evolve independently and integrate Kubernetes in a more modular and scalable manner.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/scheduler/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/scheduler/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/scheduler.svg"
+ alt="Kube Scheduler" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Kube Scheduler&lt;/h2>
+&lt;/div>
+
+&lt;p>The &lt;strong>Kube Scheduler&lt;/strong> is a key control plane component in Kubernetes responsible for assigning newly created pods to nodes in the cluster. It watches for unscheduled pods and decides the optimal node for each, based on various constraints and priorities like resource availability, taints/tolerations, affinity/anti-affinity rules, and custom policies.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-kube-scheduler">Benefits of Kube Scheduler&lt;/h3>
+&lt;h4 id="intelligent-scheduling">Intelligent Scheduling&lt;/h4>
+&lt;p>The scheduler evaluates multiple factors — including CPU/memory availability, node conditions, and policies — to ensure efficient pod placement across the cluster. This promotes high utilization and performance.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/secret/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/secret/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/secret.svg"
+ alt="Secret" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Secret&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Secret&lt;/strong> in Kubernetes stores sensitive data such as passwords, OAuth tokens, and SSH keys. Unlike ConfigMaps, Secrets are encoded (typically base64) and are intended to protect confidential information used by workloads running in the cluster.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-secrets">Benefits of Secrets&lt;/h3>
+&lt;h4 id="secure-storage">Secure Storage&lt;/h4>
+&lt;p>Secrets are stored separately from pods and can be mounted as files or environment variables. This prevents hardcoding sensitive data into container images or pod specs.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/service/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/service/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/service.svg"
+ alt="Service" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Service&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Service&lt;/strong> in Kubernetes provides a stable network endpoint to expose a group of pods. It enables reliable communication between components inside the cluster (ClusterIP), external access (NodePort, LoadBalancer), or custom routing (via Ingress).&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-kubernetes-services">Benefits of Kubernetes Services&lt;/h3>
+&lt;h4 id="service-discovery">Service Discovery&lt;/h4>
+&lt;p>Pods get dynamic IPs, but a Service provides a consistent DNS name for communication. Kubernetes handles automatic registration and load balancing for backing pods.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/service_account/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/service_account/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/service_account.svg"
+ alt="Service Account" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Service Account&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>ServiceAccount&lt;/strong> in Kubernetes provides an identity for processes running inside a pod. It&amp;rsquo;s used by the pod to authenticate with the Kubernetes API server and access resources within the cluster.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-serviceaccount">Benefits of ServiceAccount&lt;/h3>
+&lt;h4 id="scoped-access-control">Scoped Access Control&lt;/h4>
+&lt;p>Each ServiceAccount can be granted fine-grained access using &lt;strong>RBAC&lt;/strong> policies, limiting what it can read, modify, or list in the cluster.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/statefulset/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/statefulset/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/statefulset.svg"
+ alt="Stateful Set" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Stateful Set&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>StatefulSet&lt;/strong> is a Kubernetes workload API object used to manage &lt;strong>stateful applications&lt;/strong>. Unlike Deployments, it provides stable network identities, ordered pod creation/deletion, and persistent storage.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-statefulset">Benefits of StatefulSet&lt;/h3>
+&lt;h4 id="stable-identity">Stable Identity&lt;/h4>
+&lt;p>Pods get consistent names (&lt;code>pod-0&lt;/code>, &lt;code>pod-1&lt;/code>, etc.) and retain their identity across restarts.&lt;/p>
+&lt;h4 id="persistent-volumes">Persistent Volumes&lt;/h4>
+&lt;p>Each pod gets its own persistent volume (PVC), which is not shared or deleted automatically — ideal for databases and other storage-heavy workloads.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/storage_class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/storage_class/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/storage_class.svg"
+ alt="Storage Class" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Storage Class&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>StorageClass&lt;/strong> in Kubernetes defines different classes of storage available in a cluster. It allows dynamic provisioning of &lt;strong>PersistentVolumes&lt;/strong> using various backend storage systems like AWS EBS, Azure Disk, GCE PD, or on-prem CSI drivers.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-storageclass">Benefits of StorageClass&lt;/h3>
+&lt;h4 id="dynamic-volume-provisioning">Dynamic Volume Provisioning&lt;/h4>
+&lt;p>Users can request storage without manually creating PersistentVolumes. Kubernetes provisions and binds them automatically based on the StorageClass.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cluster_role/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cluster_role/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/cluster_role.svg"
+ alt="Cluster Role" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Cluster Role&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>ClusterRole&lt;/strong> in Kubernetes defines a set of permissions that apply across an entire cluster. Unlike a regular &lt;code>Role&lt;/code>, which is namespace-scoped, a &lt;code>ClusterRole&lt;/code> is cluster-scoped and can grant access to non-namespaced resources (like nodes, persistent volumes) or apply permissions uniformly across multiple namespaces.&lt;/p>
+&lt;p>ClusterRoles are essential in defining RBAC (Role-Based Access Control) policies for service accounts, users, or groups that need broad or infrastructure-level access within a Kubernetes environment.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cluster_role_binding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cluster_role_binding/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/cluster_role_binding.svg"
+ alt="Cluster Role Binding" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Cluster Role Binding&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>ClusterRoleBinding&lt;/strong> in Kubernetes connects a &lt;code>ClusterRole&lt;/code> with a user, group, or service account, granting them the permissions defined in the role &lt;strong>across the entire cluster&lt;/strong>. It is a critical part of Kubernetes&amp;rsquo; Role-Based Access Control (RBAC) system and enables centralized access control for global or cross-namespace actions.&lt;/p>
+&lt;p>While a &lt;code>ClusterRole&lt;/code> defines &lt;em>what&lt;/em> actions are allowed, the &lt;code>ClusterRoleBinding&lt;/code> defines &lt;em>who&lt;/em> gets those permissions and &lt;em>where&lt;/em> they apply. ClusterRoleBindings apply cluster-wide, unlike &lt;code>RoleBinding&lt;/code>, which is restricted to a specific namespace.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/configmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/configmap/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/configmap.svg"
+ alt="ConfigMap" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">ConfigMap&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>ConfigMap&lt;/strong> in Kubernetes is an API object used to store non-sensitive configuration data as key-value pairs. It allows application configuration to be externalized from container images, enabling separation of config and code — a core principle of modern cloud-native architecture.&lt;/p>
+&lt;p>ConfigMaps are especially useful for injecting environment-specific settings, URLs, flags, or app-level parameters without needing to rebuild or redeploy your application containers.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cronjob/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cronjob/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/cronjob.svg"
+ alt="CronJob" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">CronJob&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>CronJob&lt;/strong> in Kubernetes is a scheduled job that runs periodically based on a &lt;strong>cron expression&lt;/strong>. It’s used for automating recurring tasks like backups, cleanup scripts, report generation, or health checks — all within the Kubernetes ecosystem.&lt;/p>
+&lt;p>CronJobs extend the &lt;code>Job&lt;/code> API by adding a scheduling layer, ensuring that jobs are launched at precise, recurring times as defined by the user.&lt;/p></description></item><item><title>Kubernetes Custom Resource Definition (CRD)</title><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/custom_resource_definition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/custom_resource_definition/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/custom_resource_definition.svg"
+ alt="Custom Resource Definition" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Custom Resource Definition&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Custom Resource Definition (CRD)&lt;/strong> in Kubernetes allows users to define their own API objects — extending the Kubernetes API with domain-specific resources. CRDs are the foundation of the Kubernetes extensibility model and enable the creation of custom controllers and operators that behave like native Kubernetes resources.&lt;/p>
+&lt;p>Using CRDs, teams can define custom objects such as &lt;code>BackupPolicy&lt;/code>, &lt;code>Database&lt;/code>, &lt;code>MLJob&lt;/code>, or &lt;code>IngressRoute&lt;/code> with their own schema, lifecycle, and automation logic — all managed declaratively just like built-in objects (&lt;code>Pod&lt;/code>, &lt;code>Service&lt;/code>, etc.).&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/daemonset/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/daemonset/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/daemonset.svg"
+ alt="DaemonSet" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">DaemonSet&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>DaemonSet&lt;/strong> in Kubernetes ensures that a specific pod is &lt;strong>running on every (or selected) node&lt;/strong> in a cluster. It&amp;rsquo;s typically used for deploying background system services like log collectors, monitoring agents, or storage daemons that must be present on all nodes.&lt;/p>
+&lt;p>When a new node is added to the cluster, the DaemonSet controller automatically schedules the DaemonSet pod on it — making DaemonSet ideal for cluster-wide infrastructure agents.&lt;/p></description></item><item><title>Kubernetes Deployment</title><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/deployment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/deployment/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/deployment.svg"
+ alt="Deployment" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Deployment&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Deployment&lt;/strong> in Kubernetes manages stateless applications by declaratively maintaining the desired number of pod replicas and orchestrating rolling updates. It abstracts away manual pod management and provides robust mechanisms for scaling, rollback, and version control of application workloads.&lt;/p>
+&lt;p>Deployments are the most commonly used controller in Kubernetes for running web services, APIs, and microservices.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-deployment">Benefits of Deployment&lt;/h3>
+&lt;h4 id="declarative-and-reproducible">Declarative and Reproducible&lt;/h4>
+&lt;p>Deployments define the desired state of an application — including image versions, replica counts, labels, and update strategies — in a YAML manifest. Kubernetes ensures the actual cluster state matches the desired state, offering a clean GitOps-compatible way to manage workloads.&lt;/p></description></item><item><title>Kubernetes Horizontal Pod Autoscaler</title><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/horizontal_pod_autoscaler/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/horizontal_pod_autoscaler/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/horizontal_pod_autoscaler.svg"
+ alt="Horizontal Pod Autoscaler" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Horizontal Pod Autoscaler&lt;/h2>
+&lt;/div>
+
+&lt;p>The &lt;strong>Horizontal Pod Autoscaler (HPA)&lt;/strong> in Kubernetes automatically scales the number of pod replicas in a deployment, statefulset, or replicaset based on real-time metrics like &lt;strong>CPU utilization&lt;/strong>, &lt;strong>memory&lt;/strong>, or custom metrics. It adjusts workloads dynamically to meet demand and optimize resource usage.&lt;/p>
+&lt;p>HPA is a native Kubernetes mechanism to ensure your apps scale out under load and scale in when idle.&lt;/p></description></item><item><title>Kubernetes Ingress</title><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/ingress/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/ingress/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/ingress.svg"
+ alt="Ingress" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Ingress&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Kubernetes Ingress&lt;/strong> is an API object that manages &lt;strong>external HTTP and HTTPS traffic&lt;/strong> to services within the cluster. It provides routing rules, TLS termination, and host/path-based routing, acting as a smarter and more efficient alternative to exposing services via &lt;code>LoadBalancer&lt;/code> or &lt;code>NodePort&lt;/code>.&lt;/p>
+&lt;p>Ingress sits at the &lt;strong>application layer (Layer 7)&lt;/strong> and typically works with ingress controllers like NGINX, Traefik, or cloud-native controllers.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/job/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/job/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/job.svg"
+ alt="Job" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Job&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Kubernetes Job&lt;/strong> ensures that a &lt;strong>pod completes successfully&lt;/strong> one or more times. It&amp;rsquo;s used for &lt;strong>batch and short-lived tasks&lt;/strong> like data processing, backups, or report generation — in contrast to Deployments which manage long-running services.&lt;/p>
+&lt;p>Jobs handle &lt;strong>retry logic&lt;/strong>, &lt;strong>completion tracking&lt;/strong>, and &lt;strong>parallel executions&lt;/strong>, giving you control over how and when pods run until their tasks finish.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-jobs">Benefits of Jobs&lt;/h3>
+&lt;h4 id="guaranteed-task-completion">Guaranteed Task Completion&lt;/h4>
+&lt;p>Jobs run pods until the specified number of successful completions is reached. If a pod fails, the Job controller retries with a new pod — ensuring eventual success without manual intervention.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/kube_proxy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/kube_proxy/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/kube_proxy.svg"
+ alt="Kube Proxy" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Kube Proxy&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>kube-proxy&lt;/strong> is a core component that runs on &lt;strong>every Kubernetes node&lt;/strong>. It manages the virtual network rules that allow &lt;strong>Pods to communicate with Services&lt;/strong>, handling routing and forwarding at the &lt;strong>network layer&lt;/strong> using mechanisms like &lt;strong>iptables&lt;/strong>, &lt;strong>ipvs&lt;/strong>, or &lt;strong>eBPF&lt;/strong>.&lt;/p>
+&lt;p>It’s the silent worker that makes service discovery and networking possible within the cluster.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="key-responsibilities">Key Responsibilities&lt;/h3>
+&lt;h4 id="virtual-ip-and-port-forwarding">Virtual IP and Port Forwarding&lt;/h4>
+&lt;p>When a Service is created, kube-proxy sets up rules to forward traffic from the &lt;strong>cluster IP and port&lt;/strong> to one of the associated pods. This load balancing is transparent and efficient.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/kubelet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/kubelet/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/kubelet.svg"
+ alt="Kubelet" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Kubelet&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>kubelet&lt;/strong> is the &lt;strong>primary node agent&lt;/strong> in Kubernetes. It runs on every node and is responsible for &lt;strong>managing the lifecycle of pods&lt;/strong> assigned to that node. It interacts with the container runtime (e.g., containerd or Docker), ensuring containers are running, healthy, and conforming to spec.&lt;/p>
+&lt;p>Without kubelet, your node is invisible to the control plane.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="key-responsibilities">Key Responsibilities&lt;/h3>
+&lt;h4 id="pod-lifecycle-management">Pod Lifecycle Management&lt;/h4>
+&lt;p>kubelet watches the Kubernetes API for any pods scheduled to its node. It then &lt;strong>creates&lt;/strong>, &lt;strong>monitors&lt;/strong>, &lt;strong>restarts&lt;/strong>, or &lt;strong>cleans up&lt;/strong> containers as needed based on the PodSpec.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/namespace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/namespace/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/namespace.svg"
+ alt="Namespace" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Namespace&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Kubernetes Namespace&lt;/strong> is a way to &lt;strong>logically isolate resources&lt;/strong> in a single cluster. It’s like a virtual sub-cluster within the main cluster, allowing teams, applications, or environments to operate independently — but still share the underlying infrastructure.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-namespaces">Benefits of Namespaces&lt;/h3>
+&lt;h4 id="resource-isolation">Resource Isolation&lt;/h4>
+&lt;p>Separate teams or workloads can have their own space, reducing the risk of accidental interference. Dev, test, and prod environments can all coexist without stepping on each other’s toes.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/network_policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/network_policy/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/network_policy.svg"
+ alt="Network Policy" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Network Policy&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>NetworkPolicy&lt;/strong> in Kubernetes defines &lt;strong>rules for traffic flow&lt;/strong> at the IP level between pods and/or namespaces. It acts as a virtual firewall, specifying &lt;strong>who can talk to whom&lt;/strong> and over which ports/protocols.&lt;/p>
+&lt;p>By default, pods are non-isolated — they accept traffic from any source. Once a NetworkPolicy is applied, only explicitly allowed traffic is permitted.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-networkpolicy">Benefits of NetworkPolicy&lt;/h3>
+&lt;h4 id="pod-level-security">Pod-Level Security&lt;/h4>
+&lt;p>Restrict incoming and outgoing traffic to/from specific pods. This minimizes the blast radius in case of a breach.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/persistent_volume/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/persistent_volume/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/persistent_volume.svg"
+ alt="Persistent Volume" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Persistent Volume&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>PersistentVolume (PV)&lt;/strong> in Kubernetes is a &lt;strong>cluster-level storage resource&lt;/strong> that exists independent of pods. It represents actual storage — provisioned manually or dynamically — that can be &lt;strong>mounted by pods via PersistentVolumeClaims&lt;/strong>.&lt;/p>
+&lt;p>Think of it as a physical disk that can be lent out to workloads.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-persistentvolumes">Benefits of PersistentVolumes&lt;/h3>
+&lt;h4 id="decouples-storage-from-compute">Decouples Storage from Compute&lt;/h4>
+&lt;p>PV is a standalone resource — a pod can die or reschedule, but the volume (and its data) remains intact.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/persistent_volume_claim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/persistent_volume_claim/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/persistent_volume_claim.svg"
+ alt="Persistent Volume Claim" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Persistent Volume Claim&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>PersistentVolumeClaim (PVC)&lt;/strong> is how a pod requests storage from the Kubernetes cluster. It’s like &lt;strong>booking a disk&lt;/strong> by specifying the required size, access mode, and optional storage class.&lt;/p>
+&lt;p>The PVC binds to a matching &lt;strong>PersistentVolume (PV)&lt;/strong> — abstracting away the storage backend from the user.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-pvc">Benefits of PVC&lt;/h3>
+&lt;h4 id="simple-abstraction">Simple Abstraction&lt;/h4>
+&lt;p>Developers only care about size and access mode — not how or where the volume is provisioned.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/pod/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/pod/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/pod.svg"
+ alt="Pod" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Pod&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Pod&lt;/strong> is the &lt;strong>smallest deployable unit&lt;/strong> in Kubernetes. It represents &lt;strong>a single instance of a running process&lt;/strong>, often wrapping one or more tightly coupled containers that share the same network and storage context.&lt;/p>
+&lt;p>Most of the time, a pod runs just &lt;strong>one container&lt;/strong> (single-container pod), but you can run &lt;strong>sidecars&lt;/strong> by adding multiple containers.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-pods">Benefits of Pods&lt;/h3>
+&lt;h4 id="unified-runtime-environment">Unified Runtime Environment&lt;/h4>
+&lt;p>Containers in a pod share the &lt;strong>same network namespace&lt;/strong> and &lt;strong>volumes&lt;/strong>, making it easy to communicate over &lt;code>localhost&lt;/code> and share data.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/replica_set/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/replica_set/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/replica_set.svg"
+ alt="ReplicaSet" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">ReplicaSet&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>ReplicaSet&lt;/strong> ensures that a specified number of pod replicas are &lt;strong>running at all times&lt;/strong> in a Kubernetes cluster. If a pod crashes or is deleted, the ReplicaSet brings up a replacement.&lt;/p>
+&lt;p>It is the &lt;strong>underlying controller used by Deployments&lt;/strong> to maintain pod availability.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-replicaset">Benefits of ReplicaSet&lt;/h3>
+&lt;h4 id="high-availability">High Availability&lt;/h4>
+&lt;p>Maintains the desired replica count automatically, ensuring uptime even if nodes fail.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/role/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/role/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/role.svg"
+ alt="Role" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Role&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Role&lt;/strong> in Kubernetes defines a set of &lt;strong>permissions within a specific namespace&lt;/strong>. It is part of the &lt;strong>RBAC (Role-Based Access Control)&lt;/strong> mechanism and determines &lt;strong>what actions&lt;/strong> a user or service account can perform on Kubernetes resources.&lt;/p>
+&lt;p>Roles are always namespace-scoped. For cluster-wide access, use &lt;strong>ClusterRole&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-roles">Benefits of Roles&lt;/h3>
+&lt;h4 id="fine-grained-access-control">Fine-Grained Access Control&lt;/h4>
+&lt;p>Limit who can &lt;strong>read&lt;/strong>, &lt;strong>write&lt;/strong>, or &lt;strong>delete&lt;/strong> specific resources within a namespace.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/role_binding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/role_binding/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/role_binding.svg"
+ alt="RoleBinding" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">RoleBinding&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>RoleBinding&lt;/strong> connects a &lt;strong>Role&lt;/strong> to a &lt;strong>user, group, or service account&lt;/strong>, granting them the permissions defined in that Role — but only within a namespace.&lt;/p>
+&lt;p>RoleBindings are the &lt;strong>link&lt;/strong> between access policies (Roles) and identities (users or service accounts).&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-rolebindings">Benefits of RoleBindings&lt;/h3>
+&lt;h4 id="scoped-authorization">Scoped Authorization&lt;/h4>
+&lt;p>Binds permissions to specific users within a namespace — preventing cluster-wide access.&lt;/p></description></item></channel></rss>

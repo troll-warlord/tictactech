@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Authorization on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/authorization/</link><description>Recent content in Authorization on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/authorization/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cluster_role/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cluster_role/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/cluster_role.svg"
+ alt="Cluster Role" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Cluster Role&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>ClusterRole&lt;/strong> in Kubernetes defines a set of permissions that apply across an entire cluster. Unlike a regular &lt;code>Role&lt;/code>, which is namespace-scoped, a &lt;code>ClusterRole&lt;/code> is cluster-scoped and can grant access to non-namespaced resources (like nodes, persistent volumes) or apply permissions uniformly across multiple namespaces.&lt;/p>
+&lt;p>ClusterRoles are essential in defining RBAC (Role-Based Access Control) policies for service accounts, users, or groups that need broad or infrastructure-level access within a Kubernetes environment.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cluster_role_binding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cluster_role_binding/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/cluster_role_binding.svg"
+ alt="Cluster Role Binding" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Cluster Role Binding&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>ClusterRoleBinding&lt;/strong> in Kubernetes connects a &lt;code>ClusterRole&lt;/code> with a user, group, or service account, granting them the permissions defined in the role &lt;strong>across the entire cluster&lt;/strong>. It is a critical part of Kubernetes&amp;rsquo; Role-Based Access Control (RBAC) system and enables centralized access control for global or cross-namespace actions.&lt;/p>
+&lt;p>While a &lt;code>ClusterRole&lt;/code> defines &lt;em>what&lt;/em> actions are allowed, the &lt;code>ClusterRoleBinding&lt;/code> defines &lt;em>who&lt;/em> gets those permissions and &lt;em>where&lt;/em> they apply. ClusterRoleBindings apply cluster-wide, unlike &lt;code>RoleBinding&lt;/code>, which is restricted to a specific namespace.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/role_binding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/role_binding/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/role_binding.svg"
+ alt="RoleBinding" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">RoleBinding&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>RoleBinding&lt;/strong> connects a &lt;strong>Role&lt;/strong> to a &lt;strong>user, group, or service account&lt;/strong>, granting them the permissions defined in that Role — but only within a namespace.&lt;/p>
+&lt;p>RoleBindings are the &lt;strong>link&lt;/strong> between access policies (Roles) and identities (users or service accounts).&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-rolebindings">Benefits of RoleBindings&lt;/h3>
+&lt;h4 id="scoped-authorization">Scoped Authorization&lt;/h4>
+&lt;p>Binds permissions to specific users within a namespace — preventing cluster-wide access.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Multi-Container on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/multi-container/</link><description>Recent content in Multi-Container on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/multi-container/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/docker/docker_compose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/docker/docker_compose/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/docker/docker_compose.svg"
+ alt="Docker Compose" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Docker Compose&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>Docker Compose&lt;/strong> is a tool for defining and running &lt;strong>multi-container Docker applications&lt;/strong> using a YAML file. It simplifies development, testing, and deployment by letting you manage services, volumes, and networks declaratively.&lt;/p>
+&lt;p>Instead of running containers one-by-one, Compose lets you bring up the entire application stack with a single command: &lt;code>docker-compose up&lt;/code>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-docker-compose">Benefits of Docker Compose&lt;/h3>
+&lt;h4 id="multi-service-configuration-made-easy">Multi-Service Configuration Made Easy&lt;/h4>
+&lt;p>Compose lets you define &lt;strong>all services, volumes, and networks&lt;/strong> in a single &lt;code>docker-compose.yml&lt;/code> file. This reduces complexity and ensures that related containers (like a web app and database) are launched together.&lt;/p></description></item></channel></rss>

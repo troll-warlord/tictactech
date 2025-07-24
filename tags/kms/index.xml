@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kms on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/kms/</link><description>Recent content in Kms on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/kms/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/key_management_service/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/key_management_service/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/key_management_service.svg"
+ alt="Key Management Service" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Key Management Service&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS KMS&lt;/strong> is a managed service for creating and controlling &lt;strong>encryption keys&lt;/strong> used to secure your data across AWS services and custom apps.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="core-concepts">Core Concepts&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Customer Master Keys (CMKs):&lt;/strong> Used to encrypt data keys.&lt;/li>
+&lt;li>&lt;strong>Data Keys:&lt;/strong> Used by services like S3 or EBS to encrypt actual data.&lt;/li>
+&lt;li>&lt;strong>Automatic Key Rotation:&lt;/strong> Supported for AWS-managed keys.&lt;/li>
+&lt;li>&lt;strong>Envelope Encryption:&lt;/strong> Encrypting data with a data key that is encrypted with a CMK.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Integrated with 50+ AWS services&lt;/strong> (S3, EBS, RDS, Lambda, etc.).&lt;/li>
+&lt;li>Centralized &lt;strong>key lifecycle management&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>FIPS 140-2 compliant&lt;/strong>, suitable for regulated industries.&lt;/li>
+&lt;li>Supports &lt;strong>CloudTrail logging&lt;/strong> for audit.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Encrypt S3 buckets and EBS volumes.&lt;/li>
+&lt;li>Encrypt database columns using customer-managed keys.&lt;/li>
+&lt;li>Control access to sensitive data via key policies and IAM.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Prefer &lt;strong>customer-managed CMKs&lt;/strong> for audit control.&lt;/li>
+&lt;li>Enable &lt;strong>automatic key rotation&lt;/strong>.&lt;/li>
+&lt;li>Restrict key usage via &lt;strong>key policies&lt;/strong>.&lt;/li>
+&lt;li>Use &lt;strong>grants&lt;/strong> for short-term, controlled access.&lt;/li>
+&lt;li>Monitor key usage via &lt;strong>CloudTrail&lt;/strong> and &lt;strong>CloudWatch&lt;/strong>.&lt;/li>
+&lt;/ul></description></item></channel></rss>

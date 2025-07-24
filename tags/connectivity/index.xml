@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Connectivity on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/connectivity/</link><description>Recent content in Connectivity on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/connectivity/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/direct_connect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/direct_connect/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/direct_connect.svg"
+ alt="Direct Connect" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Direct Connect&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Direct Connect (DX)&lt;/strong> provides a &lt;strong>dedicated, private network connection&lt;/strong> between your on-premises data center (or co-location) and AWS. It offers &lt;strong>lower latency&lt;/strong>, &lt;strong>higher throughput&lt;/strong>, and &lt;strong>consistent performance&lt;/strong> compared to public internet links.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-direct-connect">Benefits of Direct Connect&lt;/h3>
+&lt;h4 id="dedicated-network-path">Dedicated Network Path&lt;/h4>
+&lt;p>Avoid the variability of the internet by routing traffic over &lt;strong>private fiber links&lt;/strong> for consistent performance.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/site_to_site_vpn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/site_to_site_vpn/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/site_to_site_vpn.svg"
+ alt="Site-to-Site VPN" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Site-to-Site VPN&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Site-to-Site VPN&lt;/strong> connects your on-premises network or other cloud environments to AWS using secure &lt;strong>IPSec tunnels&lt;/strong> over the internet.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="key-features">Key Features&lt;/h3>
+&lt;ul>
+&lt;li>Two &lt;strong>redundant tunnels&lt;/strong> per VPN connection.&lt;/li>
+&lt;li>Integrates with &lt;strong>Virtual Private Gateway&lt;/strong> or &lt;strong>Transit Gateway&lt;/strong>.&lt;/li>
+&lt;li>Supports &lt;strong>static or BGP routing&lt;/strong>.&lt;/li>
+&lt;li>Encrypted, secure tunnels.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>Quick hybrid cloud connectivity.&lt;/li>
+&lt;li>No need for Direct Connect for simple setups.&lt;/li>
+&lt;li>Works with most on-prem VPN devices.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Extend on-prem data centers to AWS.&lt;/li>
+&lt;li>Backup network path to AWS alongside Direct Connect.&lt;/li>
+&lt;li>Secure partner connectivity.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Use &lt;strong>BGP&lt;/strong> for dynamic routing and failover.&lt;/li>
+&lt;li>Monitor tunnel health with &lt;strong>CloudWatch&lt;/strong>.&lt;/li>
+&lt;li>Combine with &lt;strong>Direct Connect&lt;/strong> for reliability.&lt;/li>
+&lt;li>Enable &lt;strong>CloudHub&lt;/strong> for connecting multiple sites.&lt;/li>
+&lt;/ul></description></item></channel></rss>

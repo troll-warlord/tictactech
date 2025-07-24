@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Elb on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/elb/</link><description>Recent content in Elb on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/elb/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/elastic_load_balancer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/elastic_load_balancer/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/elastic_load_balancer.svg"
+ alt="Elastic Load Balancing" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Elastic Load Balancing&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Elastic Load Balancing (ELB)&lt;/strong> automatically distributes incoming traffic across multiple &lt;strong>targets&lt;/strong> (like EC2 instances, containers, IPs), ensuring high &lt;strong>availability&lt;/strong> and &lt;strong>fault tolerance&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="types-of-load-balancers">Types of Load Balancers&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Application Load Balancer (ALB):&lt;/strong> HTTP/HTTPS, advanced routing, path-based rules.&lt;/li>
+&lt;li>&lt;strong>Network Load Balancer (NLB):&lt;/strong> TCP/UDP, ultra-low latency, static IPs.&lt;/li>
+&lt;li>&lt;strong>Gateway Load Balancer (GWLB):&lt;/strong> For deploying third-party virtual appliances.&lt;/li>
+&lt;li>&lt;strong>Classic Load Balancer (CLB):&lt;/strong> Legacy; limited features.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>High availability&lt;/strong> across AZs.&lt;/li>
+&lt;li>&lt;strong>Auto scaling&lt;/strong> compatibility.&lt;/li>
+&lt;li>&lt;strong>SSL termination&lt;/strong> support.&lt;/li>
+&lt;li>&lt;strong>Health checks&lt;/strong> for graceful failover.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Routing API traffic to containers via ALB.&lt;/li>
+&lt;li>Distributing TCP traffic with low latency using NLB.&lt;/li>
+&lt;li>Offloading SSL from applications.&lt;/li>
+&lt;li>Deploying firewalls via GWLB in security architectures.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Use &lt;strong>ALB&lt;/strong> for modern web applications (layer 7).&lt;/li>
+&lt;li>Use &lt;strong>NLB&lt;/strong> for high-throughput, low-latency workloads.&lt;/li>
+&lt;li>Enable &lt;strong>access logs&lt;/strong> for debugging and analytics.&lt;/li>
+&lt;li>Configure &lt;strong>target group health checks&lt;/strong> precisely.&lt;/li>
+&lt;/ul></description></item></channel></rss>

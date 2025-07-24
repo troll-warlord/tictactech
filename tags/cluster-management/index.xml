@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cluster Management on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/cluster-management/</link><description>Recent content in Cluster Management on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/cluster-management/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/api_server/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/api_server/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/api_server.svg"
+ alt="API Server" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">API Server&lt;/h2>
+&lt;/div>
+
+&lt;p>The &lt;strong>Kubernetes API Server&lt;/strong> is the central control plane component that exposes the Kubernetes API. All internal and external communication with the cluster—whether it&amp;rsquo;s deploying a new pod, querying resources, or applying a config change—goes through the API Server. It acts as the &lt;strong>front door&lt;/strong> to the cluster, validating and processing REST requests, and then persisting the resource state in &lt;code>etcd&lt;/code>.&lt;/p></description></item></channel></rss>

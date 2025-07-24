@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Waf on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/waf/</link><description>Recent content in Waf on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/waf/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/application_gateway/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/application_gateway/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/azure/application_gateway.svg"
+ alt="App Gateway" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">App Gateway&lt;/h2>
+&lt;/div>
+
+&lt;p>Azure Application Gateway is a &lt;strong>Layer 7 (HTTP/HTTPS)&lt;/strong> load balancer that enables intelligent routing decisions based on URL, hostname, headers, and more. It acts as a &lt;strong>reverse proxy&lt;/strong> and can be configured with a built-in &lt;strong>Web Application Firewall (WAF)&lt;/strong> for enhanced security.&lt;/p>
+&lt;p>It is ideal for scenarios requiring advanced traffic control, TLS termination, session affinity, and secure web app delivery — especially in multi-region, multi-tier architectures.&lt;/p></description></item></channel></rss>

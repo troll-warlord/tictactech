@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Container on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/container/</link><description>Recent content in Container on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/container/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/docker/cli/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/docker/cli/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/docker/cli.svg"
+ alt="Docker CLI" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Docker CLI&lt;/h2>
+&lt;/div>
+
+&lt;p>The &lt;strong>Docker CLI&lt;/strong> (Command Line Interface) is the primary tool for interacting with the Docker daemon. It enables developers and operators to build, manage, run, and inspect containers and images from a terminal.&lt;/p>
+&lt;p>With just a few commands, you can control the entire lifecycle of containers—from building images to running production workloads.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-docker-cli">Benefits of Docker CLI&lt;/h3>
+&lt;h4 id="consistent-and-scriptable-interface">Consistent and Scriptable Interface&lt;/h4>
+&lt;p>The CLI provides a &lt;strong>unified, consistent experience&lt;/strong> across operating systems, making it ideal for scripting and automation in CI/CD pipelines. You can use shell scripts to automate container tasks like building, tagging, and pushing to a registry.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/docker/dockerfile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/docker/dockerfile/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/docker/dockerfile.svg"
+ alt="Dockerfile" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Dockerfile&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Dockerfile&lt;/strong> is a plain text file that contains instructions for building a Docker image. It defines the base image, application dependencies, file structure, environment variables, and startup commands for your container.&lt;/p>
+&lt;p>With Dockerfiles, infrastructure becomes code—&lt;strong>reliable, repeatable, and version-controlled&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-dockerfile">Benefits of Dockerfile&lt;/h3>
+&lt;h4 id="repeatable-and-consistent-builds">Repeatable and Consistent Builds&lt;/h4>
+&lt;p>Every build from a Dockerfile results in the &lt;strong>same image with the same behavior&lt;/strong>, ensuring consistency across environments—from dev laptops to production clusters.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/pod/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/pod/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/pod.svg"
+ alt="Pod" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Pod&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Pod&lt;/strong> is the &lt;strong>smallest deployable unit&lt;/strong> in Kubernetes. It represents &lt;strong>a single instance of a running process&lt;/strong>, often wrapping one or more tightly coupled containers that share the same network and storage context.&lt;/p>
+&lt;p>Most of the time, a pod runs just &lt;strong>one container&lt;/strong> (single-container pod), but you can run &lt;strong>sidecars&lt;/strong> by adding multiple containers.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-pods">Benefits of Pods&lt;/h3>
+&lt;h4 id="unified-runtime-environment">Unified Runtime Environment&lt;/h4>
+&lt;p>Containers in a pod share the &lt;strong>same network namespace&lt;/strong> and &lt;strong>volumes&lt;/strong>, making it easy to communicate over &lt;code>localhost&lt;/code> and share data.&lt;/p></description></item></channel></rss>

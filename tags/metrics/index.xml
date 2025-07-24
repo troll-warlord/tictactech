@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Metrics on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/metrics/</link><description>Recent content in Metrics on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/metrics/index.xml" rel="self" type="application/rss+xml"/><item><title>Kubernetes Horizontal Pod Autoscaler</title><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/horizontal_pod_autoscaler/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/horizontal_pod_autoscaler/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/horizontal_pod_autoscaler.svg"
+ alt="Horizontal Pod Autoscaler" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Horizontal Pod Autoscaler&lt;/h2>
+&lt;/div>
+
+&lt;p>The &lt;strong>Horizontal Pod Autoscaler (HPA)&lt;/strong> in Kubernetes automatically scales the number of pod replicas in a deployment, statefulset, or replicaset based on real-time metrics like &lt;strong>CPU utilization&lt;/strong>, &lt;strong>memory&lt;/strong>, or custom metrics. It adjusts workloads dynamically to meet demand and optimize resource usage.&lt;/p>
+&lt;p>HPA is a native Kubernetes mechanism to ensure your apps scale out under load and scale in when idle.&lt;/p></description></item></channel></rss>

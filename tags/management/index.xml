@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Management on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/management/</link><description>Recent content in Management on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/management/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/subscriptions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/subscriptions/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/azure/subscriptions.svg"
+ alt="Subscription" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Subscription&lt;/h2>
+&lt;/div>
+
+&lt;p>An &lt;strong>Azure Subscription&lt;/strong> is the &lt;strong>billing unit&lt;/strong> and &lt;strong>access boundary&lt;/strong> within Azure. It links your usage of Azure services to an account, controls who can manage what, and determines how resources are billed and tracked.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-subscriptions">Benefits of Subscriptions&lt;/h3>
+&lt;h4 id="billing-separation">Billing Separation&lt;/h4>
+&lt;p>Track and manage costs independently across projects, teams, or clients.&lt;/p>
+&lt;h4 id="access-isolation">Access Isolation&lt;/h4>
+&lt;p>Control who can access what via &lt;strong>RBAC&lt;/strong> at the subscription level, and use &lt;strong>Management Groups&lt;/strong> to roll up governance.&lt;/p></description></item></channel></rss>

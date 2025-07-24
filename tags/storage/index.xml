@@ -1,14 +1,115 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Storage on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/storage/</link><description>Recent content in Storage on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/storage/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
- &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/s3.svg"
- alt="Amazon S3" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">Amazon S3&lt;/h1>
-&lt;/div>
-
-&lt;p>Amazon S3 (Simple Storage Service) is a highly scalable, durable, and secure object storage service offered by AWS. It is designed for storing and retrieving &lt;strong>any amount of data from anywhere on the web&lt;/strong>, making it ideal for cloud-native applications, data archiving, backups, and big data workloads.&lt;/p>
-&lt;p>Unlike traditional file systems or block storage, S3 stores data as &lt;strong>objects in buckets&lt;/strong> — each object includes the data, a key (name), and metadata. It’s a cornerstone of many AWS architectures due to its &lt;strong>simplicity, performance, and integration with other AWS services.&lt;/strong>&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/ebs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/ebs/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Storage on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/storage/</link><description>Recent content in Storage on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/storage/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/ebs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/ebs/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
  &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/ebs.svg"
- alt="EBS Volumes" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">EBS Volumes&lt;/h1>
+ alt="Amazon EBS" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Amazon EBS&lt;/h2>
 &lt;/div>
 
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item></channel></rss>
+&lt;p>Amazon Elastic Block Store (EBS) is a high-performance block storage service designed for use with Amazon EC2. Unlike object storage solutions like S3, EBS provides low-latency, persistent block-level storage volumes that can be attached to EC2 instances, making it ideal for databases, transactional workloads, and applications that require consistent and fast disk performance.&lt;/p>
+&lt;p>Each EBS volume behaves like a raw, unformatted block device and supports features such as snapshots, encryption, and performance tuning. It is tightly integrated with the AWS ecosystem, offering high availability and durability within a single Availability Zone.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/s3.svg"
+ alt="S3" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">S3&lt;/h2>
+&lt;/div>
+
+&lt;p>Amazon S3 (Simple Storage Service) is a highly scalable, durable, and secure object storage service offered by AWS. It is designed for storing and retrieving any amount of data from anywhere, making it ideal for web applications, backups, media storage, and big data workloads.&lt;/p>
+&lt;p>S3 stores data as objects within buckets, each consisting of the actual data, a key (unique name), and metadata. Its architecture supports virtually unlimited storage and seamless integration with many AWS services, making it a foundational component for cloud-native designs.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/statefulset/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/statefulset/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/statefulset.svg"
+ alt="Stateful Set" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Stateful Set&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>StatefulSet&lt;/strong> is a Kubernetes workload API object used to manage &lt;strong>stateful applications&lt;/strong>. Unlike Deployments, it provides stable network identities, ordered pod creation/deletion, and persistent storage.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-statefulset">Benefits of StatefulSet&lt;/h3>
+&lt;h4 id="stable-identity">Stable Identity&lt;/h4>
+&lt;p>Pods get consistent names (&lt;code>pod-0&lt;/code>, &lt;code>pod-1&lt;/code>, etc.) and retain their identity across restarts.&lt;/p>
+&lt;h4 id="persistent-volumes">Persistent Volumes&lt;/h4>
+&lt;p>Each pod gets its own persistent volume (PVC), which is not shared or deleted automatically — ideal for databases and other storage-heavy workloads.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/storage_class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/storage_class/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/storage_class.svg"
+ alt="Storage Class" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Storage Class&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>StorageClass&lt;/strong> in Kubernetes defines different classes of storage available in a cluster. It allows dynamic provisioning of &lt;strong>PersistentVolumes&lt;/strong> using various backend storage systems like AWS EBS, Azure Disk, GCE PD, or on-prem CSI drivers.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-storageclass">Benefits of StorageClass&lt;/h3>
+&lt;h4 id="dynamic-volume-provisioning">Dynamic Volume Provisioning&lt;/h4>
+&lt;p>Users can request storage without manually creating PersistentVolumes. Kubernetes provisions and binds them automatically based on the StorageClass.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/persistent_volume/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/persistent_volume/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/persistent_volume.svg"
+ alt="Persistent Volume" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Persistent Volume&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>PersistentVolume (PV)&lt;/strong> in Kubernetes is a &lt;strong>cluster-level storage resource&lt;/strong> that exists independent of pods. It represents actual storage — provisioned manually or dynamically — that can be &lt;strong>mounted by pods via PersistentVolumeClaims&lt;/strong>.&lt;/p>
+&lt;p>Think of it as a physical disk that can be lent out to workloads.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-persistentvolumes">Benefits of PersistentVolumes&lt;/h3>
+&lt;h4 id="decouples-storage-from-compute">Decouples Storage from Compute&lt;/h4>
+&lt;p>PV is a standalone resource — a pod can die or reschedule, but the volume (and its data) remains intact.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/persistent_volume_claim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/persistent_volume_claim/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/persistent_volume_claim.svg"
+ alt="Persistent Volume Claim" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Persistent Volume Claim&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>PersistentVolumeClaim (PVC)&lt;/strong> is how a pod requests storage from the Kubernetes cluster. It’s like &lt;strong>booking a disk&lt;/strong> by specifying the required size, access mode, and optional storage class.&lt;/p>
+&lt;p>The PVC binds to a matching &lt;strong>PersistentVolume (PV)&lt;/strong> — abstracting away the storage backend from the user.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-pvc">Benefits of PVC&lt;/h3>
+&lt;h4 id="simple-abstraction">Simple Abstraction&lt;/h4>
+&lt;p>Developers only care about size and access mode — not how or where the volume is provisioned.&lt;/p></description></item></channel></rss>

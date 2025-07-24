@@ -1,15 +1,155 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Network on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/network/</link><description>Recent content in Network on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/network/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/application_gateway/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/application_gateway/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
- &lt;img src="https://troll-warlord.github.io/tictactech/images/azure/application_gateway.svg"
- alt="Application Gateway" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">Application Gateway&lt;/h1>
-&lt;/div>
-
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/load_balancer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/load_balancer/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
- &lt;img src="https://troll-warlord.github.io/tictactech/images/azure/load_balancer.svg"
- alt="Load Balancer" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">Load Balancer&lt;/h1>
-&lt;/div>
-
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/application_gateway/what-is-vnet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/application_gateway/what-is-vnet/</guid><description>&lt;h2 id="what-is-application-gateway">What is application gateway&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Network on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/network/</link><description>Recent content in Network on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/network/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/application_gateway/what-is-vnet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/application_gateway/what-is-vnet/</guid><description>&lt;h2 id="what-is-application-gateway">What is application gateway&lt;/h2>
 &lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p>
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item></channel></rss>
+&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/direct_connect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/direct_connect/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/direct_connect.svg"
+ alt="Direct Connect" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Direct Connect&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Direct Connect (DX)&lt;/strong> provides a &lt;strong>dedicated, private network connection&lt;/strong> between your on-premises data center (or co-location) and AWS. It offers &lt;strong>lower latency&lt;/strong>, &lt;strong>higher throughput&lt;/strong>, and &lt;strong>consistent performance&lt;/strong> compared to public internet links.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-direct-connect">Benefits of Direct Connect&lt;/h3>
+&lt;h4 id="dedicated-network-path">Dedicated Network Path&lt;/h4>
+&lt;p>Avoid the variability of the internet by routing traffic over &lt;strong>private fiber links&lt;/strong> for consistent performance.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/elastic_load_balancer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/elastic_load_balancer/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/elastic_load_balancer.svg"
+ alt="Elastic Load Balancing" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Elastic Load Balancing&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Elastic Load Balancing (ELB)&lt;/strong> automatically distributes incoming traffic across multiple &lt;strong>targets&lt;/strong> (like EC2 instances, containers, IPs), ensuring high &lt;strong>availability&lt;/strong> and &lt;strong>fault tolerance&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="types-of-load-balancers">Types of Load Balancers&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Application Load Balancer (ALB):&lt;/strong> HTTP/HTTPS, advanced routing, path-based rules.&lt;/li>
+&lt;li>&lt;strong>Network Load Balancer (NLB):&lt;/strong> TCP/UDP, ultra-low latency, static IPs.&lt;/li>
+&lt;li>&lt;strong>Gateway Load Balancer (GWLB):&lt;/strong> For deploying third-party virtual appliances.&lt;/li>
+&lt;li>&lt;strong>Classic Load Balancer (CLB):&lt;/strong> Legacy; limited features.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>High availability&lt;/strong> across AZs.&lt;/li>
+&lt;li>&lt;strong>Auto scaling&lt;/strong> compatibility.&lt;/li>
+&lt;li>&lt;strong>SSL termination&lt;/strong> support.&lt;/li>
+&lt;li>&lt;strong>Health checks&lt;/strong> for graceful failover.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Routing API traffic to containers via ALB.&lt;/li>
+&lt;li>Distributing TCP traffic with low latency using NLB.&lt;/li>
+&lt;li>Offloading SSL from applications.&lt;/li>
+&lt;li>Deploying firewalls via GWLB in security architectures.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Use &lt;strong>ALB&lt;/strong> for modern web applications (layer 7).&lt;/li>
+&lt;li>Use &lt;strong>NLB&lt;/strong> for high-throughput, low-latency workloads.&lt;/li>
+&lt;li>Enable &lt;strong>access logs&lt;/strong> for debugging and analytics.&lt;/li>
+&lt;li>Configure &lt;strong>target group health checks&lt;/strong> precisely.&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/lambda-copy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/lambda-copy/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/lambda%20copy.svg"
+ alt="Transit Gateway" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Transit Gateway&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Transit Gateway&lt;/strong> acts as a &lt;strong>hub&lt;/strong> to connect multiple VPCs, on-prem networks (via VPN or Direct Connect), and other AWS accounts using a &lt;strong>centralized router&lt;/strong> model.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="key-features">Key Features&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Hub-and-spoke&lt;/strong> architecture.&lt;/li>
+&lt;li>Connects &lt;strong>VPCs&lt;/strong>, &lt;strong>VPNs&lt;/strong>, and &lt;strong>Direct Connect&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Inter-region peering&lt;/strong> support.&lt;/li>
+&lt;li>Supports &lt;strong>route propagation&lt;/strong> and &lt;strong>domain segmentation&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>Simplifies network complexity.&lt;/li>
+&lt;li>Centralized control and routing.&lt;/li>
+&lt;li>Supports &lt;strong>thousands of attachments&lt;/strong>.&lt;/li>
+&lt;li>Reduces need for full mesh peering.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Large-scale multi-VPC environments.&lt;/li>
+&lt;li>Hybrid connectivity with multiple on-prem sites.&lt;/li>
+&lt;li>Centralized firewall or inspection via service insertion.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Use &lt;strong>route tables&lt;/strong> for segmentation.&lt;/li>
+&lt;li>Monitor with &lt;strong>Transit Gateway Flow Logs&lt;/strong>.&lt;/li>
+&lt;li>Combine with &lt;strong>Resource Access Manager (RAM)&lt;/strong> for cross-account sharing.&lt;/li>
+&lt;li>Integrate with &lt;strong>Network Firewall&lt;/strong> for traffic control.&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/network_policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/network_policy/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/network_policy.svg"
+ alt="Network Policy" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Network Policy&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>NetworkPolicy&lt;/strong> in Kubernetes defines &lt;strong>rules for traffic flow&lt;/strong> at the IP level between pods and/or namespaces. It acts as a virtual firewall, specifying &lt;strong>who can talk to whom&lt;/strong> and over which ports/protocols.&lt;/p>
+&lt;p>By default, pods are non-isolated — they accept traffic from any source. Once a NetworkPolicy is applied, only explicitly allowed traffic is permitted.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-networkpolicy">Benefits of NetworkPolicy&lt;/h3>
+&lt;h4 id="pod-level-security">Pod-Level Security&lt;/h4>
+&lt;p>Restrict incoming and outgoing traffic to/from specific pods. This minimizes the blast radius in case of a breach.&lt;/p></description></item></channel></rss>

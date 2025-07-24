@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Control-Plane on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/control-plane/</link><description>Recent content in Control-Plane on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/control-plane/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/api_server/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/api_server/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/api_server.svg"
+ alt="API Server" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">API Server&lt;/h2>
+&lt;/div>
+
+&lt;p>The &lt;strong>Kubernetes API Server&lt;/strong> is the central control plane component that exposes the Kubernetes API. All internal and external communication with the cluster—whether it&amp;rsquo;s deploying a new pod, querying resources, or applying a config change—goes through the API Server. It acts as the &lt;strong>front door&lt;/strong> to the cluster, validating and processing REST requests, and then persisting the resource state in &lt;code>etcd&lt;/code>.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cloud_controller_manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cloud_controller_manager/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/cloud_controller_manager.svg"
+ alt="Cloud Controller Manager" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Cloud Controller Manager&lt;/h2>
+&lt;/div>
+
+&lt;p>The &lt;strong>Cloud Controller Manager&lt;/strong> (CCM) is a Kubernetes control plane component that enables integration with cloud-specific infrastructure. It allows Kubernetes to interact with your cloud provider’s APIs to provision and manage resources such as load balancers, block storage, and network routes.&lt;/p>
+&lt;p>Before the CCM existed, cloud provider logic was bundled into the core Kubernetes binaries. The CCM separates this logic, allowing cloud vendors to evolve independently and integrate Kubernetes in a more modular and scalable manner.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/scheduler/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/scheduler/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/scheduler.svg"
+ alt="Kube Scheduler" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Kube Scheduler&lt;/h2>
+&lt;/div>
+
+&lt;p>The &lt;strong>Kube Scheduler&lt;/strong> is a key control plane component in Kubernetes responsible for assigning newly created pods to nodes in the cluster. It watches for unscheduled pods and decides the optimal node for each, based on various constraints and priorities like resource availability, taints/tolerations, affinity/anti-affinity rules, and custom policies.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-kube-scheduler">Benefits of Kube Scheduler&lt;/h3>
+&lt;h4 id="intelligent-scheduling">Intelligent Scheduling&lt;/h4>
+&lt;p>The scheduler evaluates multiple factors — including CPU/memory availability, node conditions, and policies — to ensure efficient pod placement across the cluster. This promotes high utilization and performance.&lt;/p></description></item></channel></rss>

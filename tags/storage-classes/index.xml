@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Storage Classes on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/storage-classes/</link><description>Recent content in Storage Classes on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/storage-classes/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/storage-classes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/storage-classes/</guid><description>&lt;h2 id="storage-classes">Storage Classes&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Storage Classes on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/storage-classes/</link><description>Recent content in Storage Classes on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/storage-classes/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/storage-classes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/storage-classes/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/s3.svg"
+ alt="Storage Classes" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">
+ S3 | Storage Classes
+ &lt;/h2>
+&lt;/div>
+
+&lt;h2 id="storage-classes">Storage Classes&lt;/h2>
 &lt;p>S3 offers a range of storage classes to support different use cases and access patterns.&lt;/p>
 &lt;h3 id="key-classes">Key Classes&lt;/h3>
 &lt;ul>

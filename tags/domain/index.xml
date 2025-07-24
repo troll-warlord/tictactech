@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Domain on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/domain/</link><description>Recent content in Domain on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/domain/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/route_53/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/route_53/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/route_53.svg"
+ alt="Route 53" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Route 53&lt;/h2>
+&lt;/div>
+
+&lt;p>Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service that routes end-user requests to internet applications. It can also be used for domain registration and health checking of resources.&lt;/p>
+&lt;p>With Route 53, you can manage domain names, configure routing policies, and monitor endpoint health — all within a global, reliable infrastructure. It integrates well with other AWS services, making it ideal for cloud-native and hybrid environments.&lt;/p></description></item></channel></rss>

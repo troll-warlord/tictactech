@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ec2 on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/ec2/</link><description>Recent content in Ec2 on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/ec2/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/ec2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/ec2/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
  &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/ec2.svg"
- alt="EC2 Instances" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">EC2 Instances&lt;/h1>
+ alt="Amazon EC2" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Amazon EC2&lt;/h2>
 &lt;/div>
 
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item></channel></rss>
+&lt;p>Amazon Elastic Compute Cloud (EC2) is a foundational AWS service that provides scalable virtual servers (instances) in the cloud. It allows you to launch compute resources on-demand, with complete control over operating system, instance type, networking, and storage configurations.&lt;/p>
+&lt;p>With EC2, you can build flexible, resizable, and secure compute infrastructure without investing in physical hardware. Whether you&amp;rsquo;re deploying a single web server or a fleet of services across multiple regions, EC2 adapts to your scaling and performance needs.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/auto_scaling_group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/auto_scaling_group/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/auto_scaling_group.svg"
+ alt="Auto Scaling Group" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Auto Scaling Group&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Auto Scaling Groups (ASGs)&lt;/strong> automatically manage and scale a fleet of &lt;strong>EC2 instances&lt;/strong> based on defined policies, demand, and health checks — ensuring &lt;strong>availability&lt;/strong>, &lt;strong>fault tolerance&lt;/strong>, and &lt;strong>cost optimization&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-asg">Benefits of ASG&lt;/h3>
+&lt;h4 id="dynamic-scalability">Dynamic Scalability&lt;/h4>
+&lt;p>Scale instances &lt;strong>horizontally&lt;/strong> based on metrics like CPU, memory, request count, or even custom CloudWatch metrics.&lt;/p></description></item></channel></rss>

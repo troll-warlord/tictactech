@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Secure Access on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/secure-access/</link><description>Recent content in Secure Access on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/secure-access/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/presigned-urls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/presigned-urls/</guid><description>&lt;h2 id="pre-signed-urls">Pre-signed URLs&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Secure Access on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/secure-access/</link><description>Recent content in Secure Access on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/secure-access/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/presigned-urls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/presigned-urls/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/s3.svg"
+ alt="Pre-signed URLs" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">
+ S3 | Pre-signed URLs
+ &lt;/h2>
+&lt;/div>
+
+&lt;h2 id="pre-signed-urls">Pre-signed URLs&lt;/h2>
 &lt;p>Pre-signed URLs grant temporary access to S3 objects without making them publicly accessible.&lt;/p>
 &lt;h3 id="use-cases">Use Cases&lt;/h3>
 &lt;ul>
@@ -6,4 +14,28 @@
 &lt;li>&lt;strong>Time-limited Uploads/Downloads&lt;/strong>: Limit access to specific time windows.&lt;/li>
 &lt;li>&lt;strong>API Integrations&lt;/strong>: Allow clients to upload files directly without exposing credentials.&lt;/li>
 &lt;/ul>
-&lt;p>Pre-signed URLs respect bucket permissions and expiry duration set during generation.&lt;/p></description></item></channel></rss>
+&lt;p>Pre-signed URLs respect bucket permissions and expiry duration set during generation.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/client_vpn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/client_vpn/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/client_vpn.svg"
+ alt="Client VPN" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Client VPN&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Client VPN&lt;/strong> is a managed, scalable VPN service that enables secure, remote access to &lt;strong>AWS resources&lt;/strong> and &lt;strong>on-premises networks&lt;/strong> using &lt;strong>OpenVPN&lt;/strong>-based clients. It eliminates the need for self-managed VPN servers.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-client-vpn">Benefits of Client VPN&lt;/h3>
+&lt;h4 id="scalable-remote-access">Scalable Remote Access&lt;/h4>
+&lt;p>Easily scale to hundreds or thousands of remote users without worrying about infrastructure capacity or maintenance.&lt;/p></description></item></channel></rss>

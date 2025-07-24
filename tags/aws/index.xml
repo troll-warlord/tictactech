@@ -1,79 +1,104 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aws on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/aws/</link><description>Recent content in Aws on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/aws/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
- &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/s3.svg"
- alt="Amazon S3" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">Amazon S3&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aws on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/aws/</link><description>Recent content in Aws on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/aws/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/virtual_private_cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/virtual_private_cloud/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/virtual_private_cloud.svg"
+ alt="Amazon VPC" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Amazon VPC&lt;/h2>
 &lt;/div>
 
-&lt;p>Amazon S3 (Simple Storage Service) is a highly scalable, durable, and secure object storage service offered by AWS. It is designed for storing and retrieving &lt;strong>any amount of data from anywhere on the web&lt;/strong>, making it ideal for cloud-native applications, data archiving, backups, and big data workloads.&lt;/p>
-&lt;p>Unlike traditional file systems or block storage, S3 stores data as &lt;strong>objects in buckets&lt;/strong> — each object includes the data, a key (name), and metadata. It’s a cornerstone of many AWS architectures due to its &lt;strong>simplicity, performance, and integration with other AWS services.&lt;/strong>&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/cloudfront/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/cloudfront/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
- &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/cloudfront.svg"
- alt="Cloud Front" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">Cloud Front&lt;/h1>
-&lt;/div>
-
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/ebs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/ebs/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+&lt;p>Amazon Virtual Private Cloud (VPC) lets you provision a logically isolated network within AWS where you can launch resources in a fully controlled environment. It provides granular control over IP address ranges, subnets, routing, NAT, security groups, and more.&lt;/p>
+&lt;p>VPC is the foundational networking layer in AWS, enabling secure and segmented architectures for a wide range of applications.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/ebs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/ebs/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
  &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/ebs.svg"
- alt="EBS Volumes" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">EBS Volumes&lt;/h1>
+ alt="Amazon EBS" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Amazon EBS&lt;/h2>
+&lt;/div>
+
+&lt;p>Amazon Elastic Block Store (EBS) is a high-performance block storage service designed for use with Amazon EC2. Unlike object storage solutions like S3, EBS provides low-latency, persistent block-level storage volumes that can be attached to EC2 instances, making it ideal for databases, transactional workloads, and applications that require consistent and fast disk performance.&lt;/p>
+&lt;p>Each EBS volume behaves like a raw, unformatted block device and supports features such as snapshots, encryption, and performance tuning. It is tightly integrated with the AWS ecosystem, offering high availability and durability within a single Availability Zone.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/s3.svg"
+ alt="S3" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">S3&lt;/h2>
+&lt;/div>
+
+&lt;p>Amazon S3 (Simple Storage Service) is a highly scalable, durable, and secure object storage service offered by AWS. It is designed for storing and retrieving any amount of data from anywhere, making it ideal for web applications, backups, media storage, and big data workloads.&lt;/p>
+&lt;p>S3 stores data as objects within buckets, each consisting of the actual data, a key (unique name), and metadata. Its architecture supports virtually unlimited storage and seamless integration with many AWS services, making it a foundational component for cloud-native designs.&lt;/p></description></item><item><title>Why need igw</title><link>https://troll-warlord.github.io/tictactech/blogs/aws/igw/why-need-igw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/igw/why-need-igw/</guid><description>&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p>
+&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/why-need-nat-gw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/why-need-nat-gw/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/nat_gw.svg"
+ alt="why need nat gw" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">
+ NAT Gateway | why need nat gw
+ &lt;/h2>
 &lt;/div>
 
 &lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/ec2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/ec2/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
  &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/ec2.svg"
- alt="EC2 Instances" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">EC2 Instances&lt;/h1>
+ alt="Amazon EC2" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Amazon EC2&lt;/h2>
 &lt;/div>
 
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/igw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/igw/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
- &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/igw.svg"
- alt="Internet Gateway" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">Internet Gateway&lt;/h1>
+&lt;p>Amazon Elastic Compute Cloud (EC2) is a foundational AWS service that provides scalable virtual servers (instances) in the cloud. It allows you to launch compute resources on-demand, with complete control over operating system, instance type, networking, and storage configurations.&lt;/p>
+&lt;p>With EC2, you can build flexible, resizable, and secure compute infrastructure without investing in physical hardware. Whether you&amp;rsquo;re deploying a single web server or a fleet of services across multiple regions, EC2 adapts to your scaling and performance needs.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/cloudfront/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/cloudfront/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/cloudfront.svg"
+ alt="Cloud Front" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Cloud Front&lt;/h2>
 &lt;/div>
 
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+&lt;p>Amazon CloudFront is a global content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to users with low latency and high transfer speeds. By caching content in edge locations worldwide, CloudFront improves performance and reduces the load on origin servers.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-amazon-cloudfront">Benefits of Amazon CloudFront&lt;/h3>
+&lt;h4 id="low-latency-and-high-performance">Low Latency and High Performance&lt;/h4>
+&lt;p>CloudFront uses a global network of edge locations to cache and serve content close to users, reducing latency. For example, static assets like CSS, JS, or images for a web application are served from the nearest location, leading to noticeably faster page loads across regions.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/outgoing-traffic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/outgoing-traffic/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
  &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/nat_gw.svg"
- alt="NAT Gateway" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">NAT Gateway&lt;/h1>
+ alt="Traffic to internet" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">
+ NAT Gateway | Traffic to internet
+ &lt;/h2>
 &lt;/div>
 
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/route_53/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/route_53/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/versioning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/versioning/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/s3.svg"
+ alt="Versioning" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">
+ S3 | Versioning
+ &lt;/h2>
+&lt;/div>
+
+&lt;p>Amazon S3 &lt;strong>versioning&lt;/strong> is a feature that lets you preserve, retrieve, and restore every version of every object stored in a bucket. When versioning is enabled, S3 automatically stores a &lt;strong>new version&lt;/strong> of the object every time it is modified or deleted — rather than overwriting or removing it.&lt;/p>
+&lt;p>This adds an extra layer of data protection and recovery, especially against &lt;strong>accidental deletes or unintentional overwrites&lt;/strong>.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/route_53/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/route_53/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
  &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/route_53.svg"
  alt="Route 53" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">Route 53&lt;/h1>
+ &lt;h2 style="margin: 0">Route 53&lt;/h2>
 &lt;/div>
 
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/virtual_private_cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/virtual_private_cloud/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
- &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/virtual_private_cloud.svg"
- alt="Virtual Private Cloud" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">Virtual Private Cloud&lt;/h1>
+&lt;p>Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service that routes end-user requests to internet applications. It can also be used for domain registration and health checking of resources.&lt;/p>
+&lt;p>With Route 53, you can manage domain names, configure routing policies, and monitor endpoint health — all within a global, reliable infrastructure. It integrates well with other AWS services, making it ideal for cloud-native and hybrid environments.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/igw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/igw/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/igw.svg"
+ alt="Internet Gateway" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Internet Gateway&lt;/h2>
 &lt;/div>
 
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title>Why need igw</title><link>https://troll-warlord.github.io/tictactech/blogs/aws/igw/why-need-igw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/igw/why-need-igw/</guid><description>&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p>
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/why-need-nat-gw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/why-need-nat-gw/</guid><description>&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p>
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/outgoing-traffic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/outgoing-traffic/</guid><description>&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p>
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/versioning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/versioning/</guid><description>&lt;h3 id="s3-versioning">S3 Versioning&lt;/h3>
-&lt;p>Amazon S3 &lt;strong>versioning&lt;/strong> is a feature that lets you preserve, retrieve, and restore every version of every object stored in a bucket. When versioning is enabled, S3 automatically stores a &lt;strong>new version&lt;/strong> of the object every time it is modified or deleted — rather than overwriting or removing it.&lt;/p>
-&lt;p>This adds an extra layer of data protection and recovery, especially against &lt;strong>accidental deletes or unintentional overwrites&lt;/strong>.&lt;/p>
-&lt;hr>
-&lt;h3 id="how-versioning-works">How Versioning Works&lt;/h3>
-&lt;ul>
-&lt;li>Versioning is &lt;strong>enabled at the bucket level&lt;/strong>.&lt;/li>
-&lt;li>Once enabled, every object uploaded or modified will get a unique &lt;strong>version ID&lt;/strong>.&lt;/li>
-&lt;li>Deleting an object doesn’t remove it — instead, a &lt;strong>delete marker&lt;/strong> is added.&lt;/li>
-&lt;li>You can &lt;strong>retrieve or restore&lt;/strong> previous versions anytime.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3 id="key-characteristics">Key Characteristics&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>Version IDs&lt;/strong> are unique identifiers for each version of an object.&lt;/li>
-&lt;li>&lt;strong>Null version&lt;/strong>: Objects uploaded &lt;strong>before versioning is enabled&lt;/strong> have a null version.&lt;/li>
-&lt;li>Versioning cannot be fully disabled — only suspended once enabled.&lt;/li>
-&lt;li>Supports &lt;strong>lifecycle rules&lt;/strong> to manage older versions and clean up delete markers.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3 id="benefits-of-s3-versioning">Benefits of S3 Versioning&lt;/h3>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>Protection from Accidental Deletes&lt;/strong>&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/storage-classes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/storage-classes/</guid><description>&lt;h2 id="storage-classes">Storage Classes&lt;/h2>
+&lt;p>An Internet Gateway (IGW) is a horizontally scaled, redundant, and highly available AWS VPC component that enables communication between instances in your VPC and the internet. It acts as a target for route table entries and performs network address translation for public IPs.&lt;/p>
+&lt;p>IGW is essential for any resource that needs to be accessed publicly or needs to initiate outbound traffic to the internet while being directly reachable.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/storage-classes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/storage-classes/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/s3.svg"
+ alt="Storage Classes" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">
+ S3 | Storage Classes
+ &lt;/h2>
+&lt;/div>
+
+&lt;h2 id="storage-classes">Storage Classes&lt;/h2>
 &lt;p>S3 offers a range of storage classes to support different use cases and access patterns.&lt;/p>
 &lt;h3 id="key-classes">Key Classes&lt;/h3>
 &lt;ul>
@@ -86,7 +111,21 @@
 &lt;ul>
 &lt;li>Optimize storage costs by aligning data usage patterns with the right storage class.&lt;/li>
 &lt;li>Automate transitions using lifecycle rules.&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/presigned-urls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/presigned-urls/</guid><description>&lt;h2 id="pre-signed-urls">Pre-signed URLs&lt;/h2>
+&lt;/ul></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/nat_gw.svg"
+ alt="NAT Gateway" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">NAT Gateway&lt;/h2>
+&lt;/div>
+
+&lt;p>A NAT (Network Address Translation) Gateway is a managed AWS service that enables instances in a &lt;strong>private subnet&lt;/strong> to access the internet &lt;strong>outbound only&lt;/strong>, without exposing them to inbound internet traffic. This separation of responsibilities allows you to maintain a secure networking model where sensitive backend systems remain isolated while still being able to reach external services as needed.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/presigned-urls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/presigned-urls/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/s3.svg"
+ alt="Pre-signed URLs" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">
+ S3 | Pre-signed URLs
+ &lt;/h2>
+&lt;/div>
+
+&lt;h2 id="pre-signed-urls">Pre-signed URLs&lt;/h2>
 &lt;p>Pre-signed URLs grant temporary access to S3 objects without making them publicly accessible.&lt;/p>
 &lt;h3 id="use-cases">Use Cases&lt;/h3>
 &lt;ul>
@@ -94,4 +133,468 @@
 &lt;li>&lt;strong>Time-limited Uploads/Downloads&lt;/strong>: Limit access to specific time windows.&lt;/li>
 &lt;li>&lt;strong>API Integrations&lt;/strong>: Allow clients to upload files directly without exposing credentials.&lt;/li>
 &lt;/ul>
-&lt;p>Pre-signed URLs respect bucket permissions and expiry duration set during generation.&lt;/p></description></item></channel></rss>
+&lt;p>Pre-signed URLs respect bucket permissions and expiry duration set during generation.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/auto_scaling_group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/auto_scaling_group/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/auto_scaling_group.svg"
+ alt="Auto Scaling Group" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Auto Scaling Group&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Auto Scaling Groups (ASGs)&lt;/strong> automatically manage and scale a fleet of &lt;strong>EC2 instances&lt;/strong> based on defined policies, demand, and health checks — ensuring &lt;strong>availability&lt;/strong>, &lt;strong>fault tolerance&lt;/strong>, and &lt;strong>cost optimization&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-asg">Benefits of ASG&lt;/h3>
+&lt;h4 id="dynamic-scalability">Dynamic Scalability&lt;/h4>
+&lt;p>Scale instances &lt;strong>horizontally&lt;/strong> based on metrics like CPU, memory, request count, or even custom CloudWatch metrics.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/cloudformation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/cloudformation/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/cloudformation.svg"
+ alt="Cloud Formation" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Cloud Formation&lt;/h2>
+&lt;/div>
+
+&lt;p>AWS CloudFormation is a powerful &lt;strong>Infrastructure as Code (IaC)&lt;/strong> service that allows you to model and provision AWS resources in a safe, repeatable, and automated manner. Using YAML or JSON templates, you can define your cloud infrastructure — from EC2 instances and VPCs to IAM roles and Lambda functions — and deploy them as stacks with a single command or API call.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/certificate_manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/certificate_manager/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/certificate_manager.svg"
+ alt="Certificate Manager" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Certificate Manager&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Certificate Manager (ACM)&lt;/strong> provides free &lt;strong>SSL/TLS certificates&lt;/strong> for use with AWS services, enabling &lt;strong>secure communications&lt;/strong> over HTTPS and encryption in transit — without manual certificate management.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-acm">Benefits of ACM&lt;/h3>
+&lt;h4 id="free-and-managed-ssltls-certificates">Free and Managed SSL/TLS Certificates&lt;/h4>
+&lt;p>Issue &lt;strong>public or private certificates&lt;/strong> at no cost. ACM handles renewals and lifecycle management automatically.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/client_vpn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/client_vpn/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/client_vpn.svg"
+ alt="Client VPN" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Client VPN&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Client VPN&lt;/strong> is a managed, scalable VPN service that enables secure, remote access to &lt;strong>AWS resources&lt;/strong> and &lt;strong>on-premises networks&lt;/strong> using &lt;strong>OpenVPN&lt;/strong>-based clients. It eliminates the need for self-managed VPN servers.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-client-vpn">Benefits of Client VPN&lt;/h3>
+&lt;h4 id="scalable-remote-access">Scalable Remote Access&lt;/h4>
+&lt;p>Easily scale to hundreds or thousands of remote users without worrying about infrastructure capacity or maintenance.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/direct_connect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/direct_connect/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/direct_connect.svg"
+ alt="Direct Connect" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Direct Connect&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Direct Connect (DX)&lt;/strong> provides a &lt;strong>dedicated, private network connection&lt;/strong> between your on-premises data center (or co-location) and AWS. It offers &lt;strong>lower latency&lt;/strong>, &lt;strong>higher throughput&lt;/strong>, and &lt;strong>consistent performance&lt;/strong> compared to public internet links.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-direct-connect">Benefits of Direct Connect&lt;/h3>
+&lt;h4 id="dedicated-network-path">Dedicated Network Path&lt;/h4>
+&lt;p>Avoid the variability of the internet by routing traffic over &lt;strong>private fiber links&lt;/strong> for consistent performance.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/elastic_load_balancer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/elastic_load_balancer/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/elastic_load_balancer.svg"
+ alt="Elastic Load Balancing" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Elastic Load Balancing&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Elastic Load Balancing (ELB)&lt;/strong> automatically distributes incoming traffic across multiple &lt;strong>targets&lt;/strong> (like EC2 instances, containers, IPs), ensuring high &lt;strong>availability&lt;/strong> and &lt;strong>fault tolerance&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="types-of-load-balancers">Types of Load Balancers&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Application Load Balancer (ALB):&lt;/strong> HTTP/HTTPS, advanced routing, path-based rules.&lt;/li>
+&lt;li>&lt;strong>Network Load Balancer (NLB):&lt;/strong> TCP/UDP, ultra-low latency, static IPs.&lt;/li>
+&lt;li>&lt;strong>Gateway Load Balancer (GWLB):&lt;/strong> For deploying third-party virtual appliances.&lt;/li>
+&lt;li>&lt;strong>Classic Load Balancer (CLB):&lt;/strong> Legacy; limited features.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>High availability&lt;/strong> across AZs.&lt;/li>
+&lt;li>&lt;strong>Auto scaling&lt;/strong> compatibility.&lt;/li>
+&lt;li>&lt;strong>SSL termination&lt;/strong> support.&lt;/li>
+&lt;li>&lt;strong>Health checks&lt;/strong> for graceful failover.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Routing API traffic to containers via ALB.&lt;/li>
+&lt;li>Distributing TCP traffic with low latency using NLB.&lt;/li>
+&lt;li>Offloading SSL from applications.&lt;/li>
+&lt;li>Deploying firewalls via GWLB in security architectures.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Use &lt;strong>ALB&lt;/strong> for modern web applications (layer 7).&lt;/li>
+&lt;li>Use &lt;strong>NLB&lt;/strong> for high-throughput, low-latency workloads.&lt;/li>
+&lt;li>Enable &lt;strong>access logs&lt;/strong> for debugging and analytics.&lt;/li>
+&lt;li>Configure &lt;strong>target group health checks&lt;/strong> precisely.&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/identity_and_access_management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/identity_and_access_management/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/identity_and_access_management.svg"
+ alt="Identity and Access Management" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Identity and Access Management&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS IAM&lt;/strong> helps securely control access to AWS services and resources. It lets you define &lt;strong>who&lt;/strong> can access &lt;strong>what&lt;/strong>, under &lt;strong>what conditions&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="core-concepts">Core Concepts&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Users:&lt;/strong> AWS identities tied to individuals.&lt;/li>
+&lt;li>&lt;strong>Groups:&lt;/strong> Logical collections of users with shared permissions.&lt;/li>
+&lt;li>&lt;strong>Roles:&lt;/strong> Temporary credentials with scoped access — used by services or federated users.&lt;/li>
+&lt;li>&lt;strong>Policies:&lt;/strong> JSON-based permission documents (inline or managed).&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>Centralized &lt;strong>access control&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Granular permissions&lt;/strong> using IAM policies.&lt;/li>
+&lt;li>&lt;strong>Temporary credentials&lt;/strong> for EC2, Lambda, ECS via roles.&lt;/li>
+&lt;li>&lt;strong>Multi-Factor Authentication (MFA)&lt;/strong> for added security.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Giving developers access to S3 and CloudWatch only.&lt;/li>
+&lt;li>Assigning a role to EC2 for S3 access without keys.&lt;/li>
+&lt;li>Federating users from Active Directory or Okta.&lt;/li>
+&lt;li>Creating cross-account access roles.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Follow least privilege&lt;/strong>: Give only required access.&lt;/li>
+&lt;li>&lt;strong>Use roles&lt;/strong> instead of long-term credentials.&lt;/li>
+&lt;li>Rotate access keys regularly.&lt;/li>
+&lt;li>Enable &lt;strong>MFA&lt;/strong> on privileged accounts.&lt;/li>
+&lt;li>Review &lt;strong>IAM Access Analyzer&lt;/strong> findings for unused permissions.&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/key_management_service/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/key_management_service/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/key_management_service.svg"
+ alt="Key Management Service" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Key Management Service&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS KMS&lt;/strong> is a managed service for creating and controlling &lt;strong>encryption keys&lt;/strong> used to secure your data across AWS services and custom apps.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="core-concepts">Core Concepts&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Customer Master Keys (CMKs):&lt;/strong> Used to encrypt data keys.&lt;/li>
+&lt;li>&lt;strong>Data Keys:&lt;/strong> Used by services like S3 or EBS to encrypt actual data.&lt;/li>
+&lt;li>&lt;strong>Automatic Key Rotation:&lt;/strong> Supported for AWS-managed keys.&lt;/li>
+&lt;li>&lt;strong>Envelope Encryption:&lt;/strong> Encrypting data with a data key that is encrypted with a CMK.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Integrated with 50+ AWS services&lt;/strong> (S3, EBS, RDS, Lambda, etc.).&lt;/li>
+&lt;li>Centralized &lt;strong>key lifecycle management&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>FIPS 140-2 compliant&lt;/strong>, suitable for regulated industries.&lt;/li>
+&lt;li>Supports &lt;strong>CloudTrail logging&lt;/strong> for audit.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Encrypt S3 buckets and EBS volumes.&lt;/li>
+&lt;li>Encrypt database columns using customer-managed keys.&lt;/li>
+&lt;li>Control access to sensitive data via key policies and IAM.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Prefer &lt;strong>customer-managed CMKs&lt;/strong> for audit control.&lt;/li>
+&lt;li>Enable &lt;strong>automatic key rotation&lt;/strong>.&lt;/li>
+&lt;li>Restrict key usage via &lt;strong>key policies&lt;/strong>.&lt;/li>
+&lt;li>Use &lt;strong>grants&lt;/strong> for short-term, controlled access.&lt;/li>
+&lt;li>Monitor key usage via &lt;strong>CloudTrail&lt;/strong> and &lt;strong>CloudWatch&lt;/strong>.&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/lambda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/lambda/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/lambda.svg"
+ alt="Lambda" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Lambda&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Lambda&lt;/strong> lets you run code without provisioning or managing servers. You just upload your function, and Lambda runs it in response to events, auto-scaling as needed.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="key-features">Key Features&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Event-driven execution&lt;/strong> via triggers (S3, API Gateway, SQS, etc.).&lt;/li>
+&lt;li>&lt;strong>Automatic scaling&lt;/strong> based on request volume.&lt;/li>
+&lt;li>&lt;strong>Pay-per-use&lt;/strong>: Only for execution time.&lt;/li>
+&lt;li>Built-in &lt;strong>retry logic&lt;/strong> and &lt;strong>dead-letter queues&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>No server maintenance.&lt;/li>
+&lt;li>Easily integrates with AWS ecosystem.&lt;/li>
+&lt;li>Highly scalable for asynchronous tasks.&lt;/li>
+&lt;li>Supports major languages (Python, Node.js, Java, Go, etc.).&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Backend APIs (with API Gateway).&lt;/li>
+&lt;li>Real-time file processing (e.g., S3 image resizing).&lt;/li>
+&lt;li>Scheduled jobs (like CRON via EventBridge).&lt;/li>
+&lt;li>Event processing from SQS, DynamoDB, or Kinesis.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Keep functions &lt;strong>stateless and small&lt;/strong>.&lt;/li>
+&lt;li>Use &lt;strong>layers&lt;/strong> for shared dependencies.&lt;/li>
+&lt;li>Monitor with &lt;strong>CloudWatch Logs and X-Ray&lt;/strong>.&lt;/li>
+&lt;li>Limit execution time and memory for efficiency.&lt;/li>
+&lt;li>Avoid cold starts with &lt;strong>provisioned concurrency&lt;/strong> if needed.&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/site_to_site_vpn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/site_to_site_vpn/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/site_to_site_vpn.svg"
+ alt="Site-to-Site VPN" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Site-to-Site VPN&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Site-to-Site VPN&lt;/strong> connects your on-premises network or other cloud environments to AWS using secure &lt;strong>IPSec tunnels&lt;/strong> over the internet.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="key-features">Key Features&lt;/h3>
+&lt;ul>
+&lt;li>Two &lt;strong>redundant tunnels&lt;/strong> per VPN connection.&lt;/li>
+&lt;li>Integrates with &lt;strong>Virtual Private Gateway&lt;/strong> or &lt;strong>Transit Gateway&lt;/strong>.&lt;/li>
+&lt;li>Supports &lt;strong>static or BGP routing&lt;/strong>.&lt;/li>
+&lt;li>Encrypted, secure tunnels.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>Quick hybrid cloud connectivity.&lt;/li>
+&lt;li>No need for Direct Connect for simple setups.&lt;/li>
+&lt;li>Works with most on-prem VPN devices.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Extend on-prem data centers to AWS.&lt;/li>
+&lt;li>Backup network path to AWS alongside Direct Connect.&lt;/li>
+&lt;li>Secure partner connectivity.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Use &lt;strong>BGP&lt;/strong> for dynamic routing and failover.&lt;/li>
+&lt;li>Monitor tunnel health with &lt;strong>CloudWatch&lt;/strong>.&lt;/li>
+&lt;li>Combine with &lt;strong>Direct Connect&lt;/strong> for reliability.&lt;/li>
+&lt;li>Enable &lt;strong>CloudHub&lt;/strong> for connecting multiple sites.&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/secrets_manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/secrets_manager/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/secrets_manager.svg"
+ alt="Secrets Manager" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Secrets Manager&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Secrets Manager&lt;/strong> lets you securely store, retrieve, and rotate &lt;strong>database credentials&lt;/strong>, API keys, and other secrets.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="key-features">Key Features&lt;/h3>
+&lt;ul>
+&lt;li>Automatic &lt;strong>rotation&lt;/strong> for RDS and other secrets.&lt;/li>
+&lt;li>&lt;strong>Encryption at rest&lt;/strong> with AWS KMS.&lt;/li>
+&lt;li>Fine-grained &lt;strong>IAM permissions&lt;/strong>.&lt;/li>
+&lt;li>Integrated with &lt;strong>Lambda&lt;/strong> for custom rotation.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>Centralized secrets storage.&lt;/li>
+&lt;li>Secure &lt;strong>audit trail&lt;/strong> via CloudTrail.&lt;/li>
+&lt;li>Removes hardcoding credentials in apps.&lt;/li>
+&lt;li>Version control and staging labels.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Store and rotate DB passwords.&lt;/li>
+&lt;li>Secure access tokens for external APIs.&lt;/li>
+&lt;li>Inject secrets into Lambda or ECS tasks at runtime.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Enable &lt;strong>auto-rotation&lt;/strong> where possible.&lt;/li>
+&lt;li>Use &lt;strong>resource-based policies&lt;/strong> to restrict access.&lt;/li>
+&lt;li>Rotate secrets manually if auto-rotation isn’t supported.&lt;/li>
+&lt;li>Encrypt using &lt;strong>customer-managed KMS keys&lt;/strong> for full control.&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/lambda-copy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/lambda-copy/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/lambda%20copy.svg"
+ alt="Transit Gateway" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Transit Gateway&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Transit Gateway&lt;/strong> acts as a &lt;strong>hub&lt;/strong> to connect multiple VPCs, on-prem networks (via VPN or Direct Connect), and other AWS accounts using a &lt;strong>centralized router&lt;/strong> model.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="key-features">Key Features&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Hub-and-spoke&lt;/strong> architecture.&lt;/li>
+&lt;li>Connects &lt;strong>VPCs&lt;/strong>, &lt;strong>VPNs&lt;/strong>, and &lt;strong>Direct Connect&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Inter-region peering&lt;/strong> support.&lt;/li>
+&lt;li>Supports &lt;strong>route propagation&lt;/strong> and &lt;strong>domain segmentation&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>Simplifies network complexity.&lt;/li>
+&lt;li>Centralized control and routing.&lt;/li>
+&lt;li>Supports &lt;strong>thousands of attachments&lt;/strong>.&lt;/li>
+&lt;li>Reduces need for full mesh peering.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Large-scale multi-VPC environments.&lt;/li>
+&lt;li>Hybrid connectivity with multiple on-prem sites.&lt;/li>
+&lt;li>Centralized firewall or inspection via service insertion.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Use &lt;strong>route tables&lt;/strong> for segmentation.&lt;/li>
+&lt;li>Monitor with &lt;strong>Transit Gateway Flow Logs&lt;/strong>.&lt;/li>
+&lt;li>Combine with &lt;strong>Resource Access Manager (RAM)&lt;/strong> for cross-account sharing.&lt;/li>
+&lt;li>Integrate with &lt;strong>Network Firewall&lt;/strong> for traffic control.&lt;/li>
+&lt;/ul></description></item></channel></rss>

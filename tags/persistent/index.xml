@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Persistent on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/persistent/</link><description>Recent content in Persistent on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/persistent/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/persistent_volume/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/persistent_volume/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/persistent_volume.svg"
+ alt="Persistent Volume" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Persistent Volume&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>PersistentVolume (PV)&lt;/strong> in Kubernetes is a &lt;strong>cluster-level storage resource&lt;/strong> that exists independent of pods. It represents actual storage — provisioned manually or dynamically — that can be &lt;strong>mounted by pods via PersistentVolumeClaims&lt;/strong>.&lt;/p>
+&lt;p>Think of it as a physical disk that can be lent out to workloads.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-persistentvolumes">Benefits of PersistentVolumes&lt;/h3>
+&lt;h4 id="decouples-storage-from-compute">Decouples Storage from Compute&lt;/h4>
+&lt;p>PV is a standalone resource — a pod can die or reschedule, but the volume (and its data) remains intact.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/persistent_volume_claim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/persistent_volume_claim/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/persistent_volume_claim.svg"
+ alt="Persistent Volume Claim" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Persistent Volume Claim&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>PersistentVolumeClaim (PVC)&lt;/strong> is how a pod requests storage from the Kubernetes cluster. It’s like &lt;strong>booking a disk&lt;/strong> by specifying the required size, access mode, and optional storage class.&lt;/p>
+&lt;p>The PVC binds to a matching &lt;strong>PersistentVolume (PV)&lt;/strong> — abstracting away the storage backend from the user.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-pvc">Benefits of PVC&lt;/h3>
+&lt;h4 id="simple-abstraction">Simple Abstraction&lt;/h4>
+&lt;p>Developers only care about size and access mode — not how or where the volume is provisioned.&lt;/p></description></item></channel></rss>

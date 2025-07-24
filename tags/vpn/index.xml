@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vpn on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/vpn/</link><description>Recent content in Vpn on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/vpn/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/local_network_gateway/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/local_network_gateway/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/azure/local_network_gateway.svg"
+ alt="Local Network Gateway" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Local Network Gateway&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>Azure Local Network Gateway&lt;/strong> represents your on-premises VPN device and network in Azure. It’s a crucial component when configuring &lt;strong>site-to-site VPN&lt;/strong> connections between your Azure Virtual Network and on-premises infrastructure.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-azure-local-network-gateway">Benefits of Azure Local Network Gateway&lt;/h3>
+&lt;h4 id="hybrid-connectivity">Hybrid Connectivity&lt;/h4>
+&lt;p>Acts as the Azure-side representation of your on-premises VPN appliance, allowing Azure to initiate and maintain a secure IPsec VPN tunnel.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/client_vpn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/client_vpn/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/client_vpn.svg"
+ alt="Client VPN" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Client VPN&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Client VPN&lt;/strong> is a managed, scalable VPN service that enables secure, remote access to &lt;strong>AWS resources&lt;/strong> and &lt;strong>on-premises networks&lt;/strong> using &lt;strong>OpenVPN&lt;/strong>-based clients. It eliminates the need for self-managed VPN servers.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-client-vpn">Benefits of Client VPN&lt;/h3>
+&lt;h4 id="scalable-remote-access">Scalable Remote Access&lt;/h4>
+&lt;p>Easily scale to hundreds or thousands of remote users without worrying about infrastructure capacity or maintenance.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/site_to_site_vpn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/site_to_site_vpn/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/site_to_site_vpn.svg"
+ alt="Site-to-Site VPN" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Site-to-Site VPN&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Site-to-Site VPN&lt;/strong> connects your on-premises network or other cloud environments to AWS using secure &lt;strong>IPSec tunnels&lt;/strong> over the internet.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="key-features">Key Features&lt;/h3>
+&lt;ul>
+&lt;li>Two &lt;strong>redundant tunnels&lt;/strong> per VPN connection.&lt;/li>
+&lt;li>Integrates with &lt;strong>Virtual Private Gateway&lt;/strong> or &lt;strong>Transit Gateway&lt;/strong>.&lt;/li>
+&lt;li>Supports &lt;strong>static or BGP routing&lt;/strong>.&lt;/li>
+&lt;li>Encrypted, secure tunnels.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>Quick hybrid cloud connectivity.&lt;/li>
+&lt;li>No need for Direct Connect for simple setups.&lt;/li>
+&lt;li>Works with most on-prem VPN devices.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Extend on-prem data centers to AWS.&lt;/li>
+&lt;li>Backup network path to AWS alongside Direct Connect.&lt;/li>
+&lt;li>Secure partner connectivity.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Use &lt;strong>BGP&lt;/strong> for dynamic routing and failover.&lt;/li>
+&lt;li>Monitor tunnel health with &lt;strong>CloudWatch&lt;/strong>.&lt;/li>
+&lt;li>Combine with &lt;strong>Direct Connect&lt;/strong> for reliability.&lt;/li>
+&lt;li>Enable &lt;strong>CloudHub&lt;/strong> for connecting multiple sites.&lt;/li>
+&lt;/ul></description></item></channel></rss>

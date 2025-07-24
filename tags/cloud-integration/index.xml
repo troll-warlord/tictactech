@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloud Integration on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/cloud-integration/</link><description>Recent content in Cloud Integration on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/cloud-integration/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cloud_controller_manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cloud_controller_manager/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/cloud_controller_manager.svg"
+ alt="Cloud Controller Manager" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Cloud Controller Manager&lt;/h2>
+&lt;/div>
+
+&lt;p>The &lt;strong>Cloud Controller Manager&lt;/strong> (CCM) is a Kubernetes control plane component that enables integration with cloud-specific infrastructure. It allows Kubernetes to interact with your cloud provider’s APIs to provision and manage resources such as load balancers, block storage, and network routes.&lt;/p>
+&lt;p>Before the CCM existed, cloud provider logic was bundled into the core Kubernetes binaries. The CCM separates this logic, allowing cloud vendors to evolve independently and integrate Kubernetes in a more modular and scalable manner.&lt;/p></description></item></channel></rss>

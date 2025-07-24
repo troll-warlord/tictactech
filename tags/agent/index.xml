@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Agent on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/agent/</link><description>Recent content in Agent on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/agent/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/kubelet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/kubelet/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/kubelet.svg"
+ alt="Kubelet" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Kubelet&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>kubelet&lt;/strong> is the &lt;strong>primary node agent&lt;/strong> in Kubernetes. It runs on every node and is responsible for &lt;strong>managing the lifecycle of pods&lt;/strong> assigned to that node. It interacts with the container runtime (e.g., containerd or Docker), ensuring containers are running, healthy, and conforming to spec.&lt;/p>
+&lt;p>Without kubelet, your node is invisible to the control plane.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="key-responsibilities">Key Responsibilities&lt;/h3>
+&lt;h4 id="pod-lifecycle-management">Pod Lifecycle Management&lt;/h4>
+&lt;p>kubelet watches the Kubernetes API for any pods scheduled to its node. It then &lt;strong>creates&lt;/strong>, &lt;strong>monitors&lt;/strong>, &lt;strong>restarts&lt;/strong>, or &lt;strong>cleans up&lt;/strong> containers as needed based on the PodSpec.&lt;/p></description></item></channel></rss>

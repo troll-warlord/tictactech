@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/windows/</link><description>Recent content in Windows on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/virtual_machine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/virtual_machine/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/azure/virtual_machine.svg"
+ alt="Virtual Machine (VM)" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Virtual Machine (VM)&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>Azure Virtual Machines&lt;/strong> offer scalable, on-demand computing resources in the cloud. As an Infrastructure-as-a-Service (IaaS) offering, they allow you to run Windows or Linux workloads without worrying about underlying hardware, while retaining full control over the operating system and installed applications.&lt;/p>
+&lt;p>Azure VMs are ideal when you need &lt;strong>custom software configurations, legacy applications, or administrative control&lt;/strong> at the OS level.&lt;/p></description></item></channel></rss>

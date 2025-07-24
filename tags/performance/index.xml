@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Performance on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/performance/</link><description>Recent content in Performance on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/performance/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/cloudfront/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/cloudfront/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/cloudfront.svg"
+ alt="Cloud Front" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Cloud Front&lt;/h2>
+&lt;/div>
+
+&lt;p>Amazon CloudFront is a global content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to users with low latency and high transfer speeds. By caching content in edge locations worldwide, CloudFront improves performance and reduces the load on origin servers.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-amazon-cloudfront">Benefits of Amazon CloudFront&lt;/h3>
+&lt;h4 id="low-latency-and-high-performance">Low Latency and High Performance&lt;/h4>
+&lt;p>CloudFront uses a global network of edge locations to cache and serve content close to users, reducing latency. For example, static assets like CSS, JS, or images for a web application are served from the nearest location, leading to noticeably faster page loads across regions.&lt;/p></description></item></channel></rss>

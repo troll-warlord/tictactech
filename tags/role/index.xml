@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Role on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/role/</link><description>Recent content in Role on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/role/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/role/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/role/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/role.svg"
+ alt="Role" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Role&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Role&lt;/strong> in Kubernetes defines a set of &lt;strong>permissions within a specific namespace&lt;/strong>. It is part of the &lt;strong>RBAC (Role-Based Access Control)&lt;/strong> mechanism and determines &lt;strong>what actions&lt;/strong> a user or service account can perform on Kubernetes resources.&lt;/p>
+&lt;p>Roles are always namespace-scoped. For cluster-wide access, use &lt;strong>ClusterRole&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-roles">Benefits of Roles&lt;/h3>
+&lt;h4 id="fine-grained-access-control">Fine-Grained Access Control&lt;/h4>
+&lt;p>Limit who can &lt;strong>read&lt;/strong>, &lt;strong>write&lt;/strong>, or &lt;strong>delete&lt;/strong> specific resources within a namespace.&lt;/p></description></item></channel></rss>

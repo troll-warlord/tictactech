@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tcp on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/tcp/</link><description>Recent content in Tcp on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/tcp/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/load_balancer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/load_balancer/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/azure/load_balancer.svg"
+ alt="Load Balancer" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Load Balancer&lt;/h2>
+&lt;/div>
+
+&lt;p>Azure Load Balancer is a high-performance, &lt;strong>Layer 4 (TCP/UDP)&lt;/strong> load balancer that distributes traffic to virtual machines and other resources in a &lt;strong>virtual network&lt;/strong>. It supports both &lt;strong>public&lt;/strong> and &lt;strong>internal&lt;/strong> scenarios, making it suitable for internet-facing services and private application tiers alike.&lt;/p>
+&lt;p>It is ideal when low latency, high throughput, and high availability are required — such as for gaming, VoIP, or traditional enterprise applications that use TCP or UDP protocols.&lt;/p></description></item></channel></rss>

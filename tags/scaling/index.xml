@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scaling on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/scaling/</link><description>Recent content in Scaling on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/scaling/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/elastic_load_balancer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/elastic_load_balancer/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/elastic_load_balancer.svg"
+ alt="Elastic Load Balancing" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Elastic Load Balancing&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Elastic Load Balancing (ELB)&lt;/strong> automatically distributes incoming traffic across multiple &lt;strong>targets&lt;/strong> (like EC2 instances, containers, IPs), ensuring high &lt;strong>availability&lt;/strong> and &lt;strong>fault tolerance&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="types-of-load-balancers">Types of Load Balancers&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Application Load Balancer (ALB):&lt;/strong> HTTP/HTTPS, advanced routing, path-based rules.&lt;/li>
+&lt;li>&lt;strong>Network Load Balancer (NLB):&lt;/strong> TCP/UDP, ultra-low latency, static IPs.&lt;/li>
+&lt;li>&lt;strong>Gateway Load Balancer (GWLB):&lt;/strong> For deploying third-party virtual appliances.&lt;/li>
+&lt;li>&lt;strong>Classic Load Balancer (CLB):&lt;/strong> Legacy; limited features.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>High availability&lt;/strong> across AZs.&lt;/li>
+&lt;li>&lt;strong>Auto scaling&lt;/strong> compatibility.&lt;/li>
+&lt;li>&lt;strong>SSL termination&lt;/strong> support.&lt;/li>
+&lt;li>&lt;strong>Health checks&lt;/strong> for graceful failover.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Routing API traffic to containers via ALB.&lt;/li>
+&lt;li>Distributing TCP traffic with low latency using NLB.&lt;/li>
+&lt;li>Offloading SSL from applications.&lt;/li>
+&lt;li>Deploying firewalls via GWLB in security architectures.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Use &lt;strong>ALB&lt;/strong> for modern web applications (layer 7).&lt;/li>
+&lt;li>Use &lt;strong>NLB&lt;/strong> for high-throughput, low-latency workloads.&lt;/li>
+&lt;li>Enable &lt;strong>access logs&lt;/strong> for debugging and analytics.&lt;/li>
+&lt;li>Configure &lt;strong>target group health checks&lt;/strong> precisely.&lt;/li>
+&lt;/ul></description></item><item><title>Kubernetes Deployment</title><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/deployment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/deployment/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/deployment.svg"
+ alt="Deployment" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Deployment&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Deployment&lt;/strong> in Kubernetes manages stateless applications by declaratively maintaining the desired number of pod replicas and orchestrating rolling updates. It abstracts away manual pod management and provides robust mechanisms for scaling, rollback, and version control of application workloads.&lt;/p>
+&lt;p>Deployments are the most commonly used controller in Kubernetes for running web services, APIs, and microservices.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-deployment">Benefits of Deployment&lt;/h3>
+&lt;h4 id="declarative-and-reproducible">Declarative and Reproducible&lt;/h4>
+&lt;p>Deployments define the desired state of an application — including image versions, replica counts, labels, and update strategies — in a YAML manifest. Kubernetes ensures the actual cluster state matches the desired state, offering a clean GitOps-compatible way to manage workloads.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/replica_set/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/replica_set/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/replica_set.svg"
+ alt="ReplicaSet" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">ReplicaSet&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>ReplicaSet&lt;/strong> ensures that a specified number of pod replicas are &lt;strong>running at all times&lt;/strong> in a Kubernetes cluster. If a pod crashes or is deleted, the ReplicaSet brings up a replacement.&lt;/p>
+&lt;p>It is the &lt;strong>underlying controller used by Deployments&lt;/strong> to maintain pod availability.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-replicaset">Benefits of ReplicaSet&lt;/h3>
+&lt;h4 id="high-availability">High Availability&lt;/h4>
+&lt;p>Maintains the desired replica count automatically, ensuring uptime even if nodes fail.&lt;/p></description></item></channel></rss>

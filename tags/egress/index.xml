@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Egress on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/egress/</link><description>Recent content in Egress on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/egress/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/nat_gw.svg"
+ alt="NAT Gateway" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">NAT Gateway&lt;/h2>
+&lt;/div>
+
+&lt;p>A NAT (Network Address Translation) Gateway is a managed AWS service that enables instances in a &lt;strong>private subnet&lt;/strong> to access the internet &lt;strong>outbound only&lt;/strong>, without exposing them to inbound internet traffic. This separation of responsibilities allows you to maintain a secure networking model where sensitive backend systems remain isolated while still being able to reach external services as needed.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/nat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/nat/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/azure/nat.svg"
+ alt="NAT Gateway" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">NAT Gateway&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>Azure NAT Gateway&lt;/strong> provides &lt;strong>outbound Internet connectivity&lt;/strong> for resources inside an Azure Virtual Network in a secure, scalable, and efficient manner. It ensures all egress traffic is translated through a consistent set of public IP addresses, simplifying IP management and outbound traffic flow.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-azure-nat-gateway">Benefits of Azure NAT Gateway&lt;/h3>
+&lt;h4 id="predictable-and-scalable-egress">Predictable and Scalable Egress&lt;/h4>
+&lt;p>Unlike basic SNAT from load balancers, NAT Gateway provides &lt;strong>dedicated, scalable NAT&lt;/strong> with support for &lt;strong>64,000 simultaneous ports per IP&lt;/strong>, reducing SNAT port exhaustion issues.&lt;/p></description></item></channel></rss>

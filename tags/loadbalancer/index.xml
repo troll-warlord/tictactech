@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Loadbalancer on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/loadbalancer/</link><description>Recent content in Loadbalancer on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/loadbalancer/index.xml" rel="self" type="application/rss+xml"/><item><title>Kubernetes Ingress</title><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/ingress/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/ingress/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/ingress.svg"
+ alt="Ingress" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Ingress&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Kubernetes Ingress&lt;/strong> is an API object that manages &lt;strong>external HTTP and HTTPS traffic&lt;/strong> to services within the cluster. It provides routing rules, TLS termination, and host/path-based routing, acting as a smarter and more efficient alternative to exposing services via &lt;code>LoadBalancer&lt;/code> or &lt;code>NodePort&lt;/code>.&lt;/p>
+&lt;p>Ingress sits at the &lt;strong>application layer (Layer 7)&lt;/strong> and typically works with ingress controllers like NGINX, Traefik, or cloud-native controllers.&lt;/p></description></item></channel></rss>

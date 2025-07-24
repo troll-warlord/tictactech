@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Infra on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/infra/</link><description>Recent content in Infra on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/infra/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/daemonset/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/daemonset/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/daemonset.svg"
+ alt="DaemonSet" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">DaemonSet&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>DaemonSet&lt;/strong> in Kubernetes ensures that a specific pod is &lt;strong>running on every (or selected) node&lt;/strong> in a cluster. It&amp;rsquo;s typically used for deploying background system services like log collectors, monitoring agents, or storage daemons that must be present on all nodes.&lt;/p>
+&lt;p>When a new node is added to the cluster, the DaemonSet controller automatically schedules the DaemonSet pod on it — making DaemonSet ideal for cluster-wide infrastructure agents.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Access Control on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/access-control/</link><description>Recent content in Access Control on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/access-control/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/subscriptions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/subscriptions/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/azure/subscriptions.svg"
+ alt="Subscription" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Subscription&lt;/h2>
+&lt;/div>
+
+&lt;p>An &lt;strong>Azure Subscription&lt;/strong> is the &lt;strong>billing unit&lt;/strong> and &lt;strong>access boundary&lt;/strong> within Azure. It links your usage of Azure services to an account, controls who can manage what, and determines how resources are billed and tracked.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-subscriptions">Benefits of Subscriptions&lt;/h3>
+&lt;h4 id="billing-separation">Billing Separation&lt;/h4>
+&lt;p>Track and manage costs independently across projects, teams, or clients.&lt;/p>
+&lt;h4 id="access-isolation">Access Isolation&lt;/h4>
+&lt;p>Control who can access what via &lt;strong>RBAC&lt;/strong> at the subscription level, and use &lt;strong>Management Groups&lt;/strong> to roll up governance.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/identity_and_access_management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/identity_and_access_management/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/identity_and_access_management.svg"
+ alt="Identity and Access Management" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Identity and Access Management&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS IAM&lt;/strong> helps securely control access to AWS services and resources. It lets you define &lt;strong>who&lt;/strong> can access &lt;strong>what&lt;/strong>, under &lt;strong>what conditions&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="core-concepts">Core Concepts&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Users:&lt;/strong> AWS identities tied to individuals.&lt;/li>
+&lt;li>&lt;strong>Groups:&lt;/strong> Logical collections of users with shared permissions.&lt;/li>
+&lt;li>&lt;strong>Roles:&lt;/strong> Temporary credentials with scoped access — used by services or federated users.&lt;/li>
+&lt;li>&lt;strong>Policies:&lt;/strong> JSON-based permission documents (inline or managed).&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>Centralized &lt;strong>access control&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Granular permissions&lt;/strong> using IAM policies.&lt;/li>
+&lt;li>&lt;strong>Temporary credentials&lt;/strong> for EC2, Lambda, ECS via roles.&lt;/li>
+&lt;li>&lt;strong>Multi-Factor Authentication (MFA)&lt;/strong> for added security.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Giving developers access to S3 and CloudWatch only.&lt;/li>
+&lt;li>Assigning a role to EC2 for S3 access without keys.&lt;/li>
+&lt;li>Federating users from Active Directory or Okta.&lt;/li>
+&lt;li>Creating cross-account access roles.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Follow least privilege&lt;/strong>: Give only required access.&lt;/li>
+&lt;li>&lt;strong>Use roles&lt;/strong> instead of long-term credentials.&lt;/li>
+&lt;li>Rotate access keys regularly.&lt;/li>
+&lt;li>Enable &lt;strong>MFA&lt;/strong> on privileged accounts.&lt;/li>
+&lt;li>Review &lt;strong>IAM Access Analyzer&lt;/strong> findings for unused permissions.&lt;/li>
+&lt;/ul></description></item></channel></rss>

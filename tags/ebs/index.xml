@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ebs on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/ebs/</link><description>Recent content in Ebs on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/ebs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/ebs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/ebs/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
  &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/ebs.svg"
- alt="EBS Volumes" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">EBS Volumes&lt;/h1>
+ alt="Amazon EBS" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Amazon EBS&lt;/h2>
 &lt;/div>
 
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item></channel></rss>
+&lt;p>Amazon Elastic Block Store (EBS) is a high-performance block storage service designed for use with Amazon EC2. Unlike object storage solutions like S3, EBS provides low-latency, persistent block-level storage volumes that can be attached to EC2 instances, making it ideal for databases, transactional workloads, and applications that require consistent and fast disk performance.&lt;/p>
+&lt;p>Each EBS volume behaves like a raw, unformatted block device and supports features such as snapshots, encryption, and performance tuning. It is tightly integrated with the AWS ecosystem, offering high availability and durability within a single Availability Zone.&lt;/p></description></item></channel></rss>

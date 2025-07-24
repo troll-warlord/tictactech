@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vpc on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/vpc/</link><description>Recent content in Vpc on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/vpc/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/virtual_private_cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/virtual_private_cloud/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
  &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/virtual_private_cloud.svg"
- alt="Virtual Private Cloud" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">Virtual Private Cloud&lt;/h1>
+ alt="Amazon VPC" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Amazon VPC&lt;/h2>
 &lt;/div>
 
-&lt;p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p></description></item></channel></rss>
+&lt;p>Amazon Virtual Private Cloud (VPC) lets you provision a logically isolated network within AWS where you can launch resources in a fully controlled environment. It provides granular control over IP address ranges, subnets, routing, NAT, security groups, and more.&lt;/p>
+&lt;p>VPC is the foundational networking layer in AWS, enabling secure and segmented architectures for a wide range of applications.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/igw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/igw/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/igw.svg"
+ alt="Internet Gateway" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Internet Gateway&lt;/h2>
+&lt;/div>
+
+&lt;p>An Internet Gateway (IGW) is a horizontally scaled, redundant, and highly available AWS VPC component that enables communication between instances in your VPC and the internet. It acts as a target for route table entries and performs network address translation for public IPs.&lt;/p>
+&lt;p>IGW is essential for any resource that needs to be accessed publicly or needs to initiate outbound traffic to the internet while being directly reachable.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/nat_gw/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/nat_gw.svg"
+ alt="NAT Gateway" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">NAT Gateway&lt;/h2>
+&lt;/div>
+
+&lt;p>A NAT (Network Address Translation) Gateway is a managed AWS service that enables instances in a &lt;strong>private subnet&lt;/strong> to access the internet &lt;strong>outbound only&lt;/strong>, without exposing them to inbound internet traffic. This separation of responsibilities allows you to maintain a secure networking model where sensitive backend systems remain isolated while still being able to reach external services as needed.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/client_vpn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/client_vpn/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/client_vpn.svg"
+ alt="Client VPN" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Client VPN&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Client VPN&lt;/strong> is a managed, scalable VPN service that enables secure, remote access to &lt;strong>AWS resources&lt;/strong> and &lt;strong>on-premises networks&lt;/strong> using &lt;strong>OpenVPN&lt;/strong>-based clients. It eliminates the need for self-managed VPN servers.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-client-vpn">Benefits of Client VPN&lt;/h3>
+&lt;h4 id="scalable-remote-access">Scalable Remote Access&lt;/h4>
+&lt;p>Easily scale to hundreds or thousands of remote users without worrying about infrastructure capacity or maintenance.&lt;/p></description></item></channel></rss>

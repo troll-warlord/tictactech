@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/security/</link><description>Recent content in Security on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cluster_role/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cluster_role/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/cluster_role.svg"
+ alt="Cluster Role" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Cluster Role&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>ClusterRole&lt;/strong> in Kubernetes defines a set of permissions that apply across an entire cluster. Unlike a regular &lt;code>Role&lt;/code>, which is namespace-scoped, a &lt;code>ClusterRole&lt;/code> is cluster-scoped and can grant access to non-namespaced resources (like nodes, persistent volumes) or apply permissions uniformly across multiple namespaces.&lt;/p>
+&lt;p>ClusterRoles are essential in defining RBAC (Role-Based Access Control) policies for service accounts, users, or groups that need broad or infrastructure-level access within a Kubernetes environment.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cluster_role_binding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/cluster_role_binding/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/cluster_role_binding.svg"
+ alt="Cluster Role Binding" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Cluster Role Binding&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>ClusterRoleBinding&lt;/strong> in Kubernetes connects a &lt;code>ClusterRole&lt;/code> with a user, group, or service account, granting them the permissions defined in the role &lt;strong>across the entire cluster&lt;/strong>. It is a critical part of Kubernetes&amp;rsquo; Role-Based Access Control (RBAC) system and enables centralized access control for global or cross-namespace actions.&lt;/p>
+&lt;p>While a &lt;code>ClusterRole&lt;/code> defines &lt;em>what&lt;/em> actions are allowed, the &lt;code>ClusterRoleBinding&lt;/code> defines &lt;em>who&lt;/em> gets those permissions and &lt;em>where&lt;/em> they apply. ClusterRoleBindings apply cluster-wide, unlike &lt;code>RoleBinding&lt;/code>, which is restricted to a specific namespace.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/certificate_manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/certificate_manager/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/certificate_manager.svg"
+ alt="Certificate Manager" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Certificate Manager&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Certificate Manager (ACM)&lt;/strong> provides free &lt;strong>SSL/TLS certificates&lt;/strong> for use with AWS services, enabling &lt;strong>secure communications&lt;/strong> over HTTPS and encryption in transit — without manual certificate management.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-acm">Benefits of ACM&lt;/h3>
+&lt;h4 id="free-and-managed-ssltls-certificates">Free and Managed SSL/TLS Certificates&lt;/h4>
+&lt;p>Issue &lt;strong>public or private certificates&lt;/strong> at no cost. ACM handles renewals and lifecycle management automatically.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/identity_and_access_management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/identity_and_access_management/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/identity_and_access_management.svg"
+ alt="Identity and Access Management" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Identity and Access Management&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS IAM&lt;/strong> helps securely control access to AWS services and resources. It lets you define &lt;strong>who&lt;/strong> can access &lt;strong>what&lt;/strong>, under &lt;strong>what conditions&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="core-concepts">Core Concepts&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Users:&lt;/strong> AWS identities tied to individuals.&lt;/li>
+&lt;li>&lt;strong>Groups:&lt;/strong> Logical collections of users with shared permissions.&lt;/li>
+&lt;li>&lt;strong>Roles:&lt;/strong> Temporary credentials with scoped access — used by services or federated users.&lt;/li>
+&lt;li>&lt;strong>Policies:&lt;/strong> JSON-based permission documents (inline or managed).&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>Centralized &lt;strong>access control&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Granular permissions&lt;/strong> using IAM policies.&lt;/li>
+&lt;li>&lt;strong>Temporary credentials&lt;/strong> for EC2, Lambda, ECS via roles.&lt;/li>
+&lt;li>&lt;strong>Multi-Factor Authentication (MFA)&lt;/strong> for added security.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Giving developers access to S3 and CloudWatch only.&lt;/li>
+&lt;li>Assigning a role to EC2 for S3 access without keys.&lt;/li>
+&lt;li>Federating users from Active Directory or Okta.&lt;/li>
+&lt;li>Creating cross-account access roles.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Follow least privilege&lt;/strong>: Give only required access.&lt;/li>
+&lt;li>&lt;strong>Use roles&lt;/strong> instead of long-term credentials.&lt;/li>
+&lt;li>Rotate access keys regularly.&lt;/li>
+&lt;li>Enable &lt;strong>MFA&lt;/strong> on privileged accounts.&lt;/li>
+&lt;li>Review &lt;strong>IAM Access Analyzer&lt;/strong> findings for unused permissions.&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/key_management_service/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/key_management_service/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/key_management_service.svg"
+ alt="Key Management Service" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Key Management Service&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS KMS&lt;/strong> is a managed service for creating and controlling &lt;strong>encryption keys&lt;/strong> used to secure your data across AWS services and custom apps.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="core-concepts">Core Concepts&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Customer Master Keys (CMKs):&lt;/strong> Used to encrypt data keys.&lt;/li>
+&lt;li>&lt;strong>Data Keys:&lt;/strong> Used by services like S3 or EBS to encrypt actual data.&lt;/li>
+&lt;li>&lt;strong>Automatic Key Rotation:&lt;/strong> Supported for AWS-managed keys.&lt;/li>
+&lt;li>&lt;strong>Envelope Encryption:&lt;/strong> Encrypting data with a data key that is encrypted with a CMK.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Integrated with 50+ AWS services&lt;/strong> (S3, EBS, RDS, Lambda, etc.).&lt;/li>
+&lt;li>Centralized &lt;strong>key lifecycle management&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>FIPS 140-2 compliant&lt;/strong>, suitable for regulated industries.&lt;/li>
+&lt;li>Supports &lt;strong>CloudTrail logging&lt;/strong> for audit.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Encrypt S3 buckets and EBS volumes.&lt;/li>
+&lt;li>Encrypt database columns using customer-managed keys.&lt;/li>
+&lt;li>Control access to sensitive data via key policies and IAM.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Prefer &lt;strong>customer-managed CMKs&lt;/strong> for audit control.&lt;/li>
+&lt;li>Enable &lt;strong>automatic key rotation&lt;/strong>.&lt;/li>
+&lt;li>Restrict key usage via &lt;strong>key policies&lt;/strong>.&lt;/li>
+&lt;li>Use &lt;strong>grants&lt;/strong> for short-term, controlled access.&lt;/li>
+&lt;li>Monitor key usage via &lt;strong>CloudTrail&lt;/strong> and &lt;strong>CloudWatch&lt;/strong>.&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/secrets_manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/secrets_manager/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/secrets_manager.svg"
+ alt="Secrets Manager" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Secrets Manager&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Secrets Manager&lt;/strong> lets you securely store, retrieve, and rotate &lt;strong>database credentials&lt;/strong>, API keys, and other secrets.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="key-features">Key Features&lt;/h3>
+&lt;ul>
+&lt;li>Automatic &lt;strong>rotation&lt;/strong> for RDS and other secrets.&lt;/li>
+&lt;li>&lt;strong>Encryption at rest&lt;/strong> with AWS KMS.&lt;/li>
+&lt;li>Fine-grained &lt;strong>IAM permissions&lt;/strong>.&lt;/li>
+&lt;li>Integrated with &lt;strong>Lambda&lt;/strong> for custom rotation.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>Centralized secrets storage.&lt;/li>
+&lt;li>Secure &lt;strong>audit trail&lt;/strong> via CloudTrail.&lt;/li>
+&lt;li>Removes hardcoding credentials in apps.&lt;/li>
+&lt;li>Version control and staging labels.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Store and rotate DB passwords.&lt;/li>
+&lt;li>Secure access tokens for external APIs.&lt;/li>
+&lt;li>Inject secrets into Lambda or ECS tasks at runtime.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Enable &lt;strong>auto-rotation&lt;/strong> where possible.&lt;/li>
+&lt;li>Use &lt;strong>resource-based policies&lt;/strong> to restrict access.&lt;/li>
+&lt;li>Rotate secrets manually if auto-rotation isn’t supported.&lt;/li>
+&lt;li>Encrypt using &lt;strong>customer-managed KMS keys&lt;/strong> for full control.&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/network_policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/network_policy/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/network_policy.svg"
+ alt="Network Policy" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Network Policy&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>NetworkPolicy&lt;/strong> in Kubernetes defines &lt;strong>rules for traffic flow&lt;/strong> at the IP level between pods and/or namespaces. It acts as a virtual firewall, specifying &lt;strong>who can talk to whom&lt;/strong> and over which ports/protocols.&lt;/p>
+&lt;p>By default, pods are non-isolated — they accept traffic from any source. Once a NetworkPolicy is applied, only explicitly allowed traffic is permitted.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-networkpolicy">Benefits of NetworkPolicy&lt;/h3>
+&lt;h4 id="pod-level-security">Pod-Level Security&lt;/h4>
+&lt;p>Restrict incoming and outgoing traffic to/from specific pods. This minimizes the blast radius in case of a breach.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/role/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/role/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/role.svg"
+ alt="Role" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Role&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>Role&lt;/strong> in Kubernetes defines a set of &lt;strong>permissions within a specific namespace&lt;/strong>. It is part of the &lt;strong>RBAC (Role-Based Access Control)&lt;/strong> mechanism and determines &lt;strong>what actions&lt;/strong> a user or service account can perform on Kubernetes resources.&lt;/p>
+&lt;p>Roles are always namespace-scoped. For cluster-wide access, use &lt;strong>ClusterRole&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-roles">Benefits of Roles&lt;/h3>
+&lt;h4 id="fine-grained-access-control">Fine-Grained Access Control&lt;/h4>
+&lt;p>Limit who can &lt;strong>read&lt;/strong>, &lt;strong>write&lt;/strong>, or &lt;strong>delete&lt;/strong> specific resources within a namespace.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/role_binding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/role_binding/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/role_binding.svg"
+ alt="RoleBinding" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">RoleBinding&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>RoleBinding&lt;/strong> connects a &lt;strong>Role&lt;/strong> to a &lt;strong>user, group, or service account&lt;/strong>, granting them the permissions defined in that Role — but only within a namespace.&lt;/p>
+&lt;p>RoleBindings are the &lt;strong>link&lt;/strong> between access policies (Roles) and identities (users or service accounts).&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-rolebindings">Benefits of RoleBindings&lt;/h3>
+&lt;h4 id="scoped-authorization">Scoped Authorization&lt;/h4>
+&lt;p>Binds permissions to specific users within a namespace — preventing cluster-wide access.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Domain Management on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/domain-management/</link><description>Recent content in Domain Management on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/domain-management/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/dns_zone/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/dns_zone/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/azure/dns_zone.svg"
+ alt="DNS Zone" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">DNS Zone&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>Azure DNS Zone&lt;/strong> is a hosting service for &lt;strong>DNS domains&lt;/strong>, allowing you to manage and resolve domain names using Microsoft’s global infrastructure. It enables custom domain names for applications, services, and internal networks within your Azure environment.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-azure-dns-zone">Benefits of Azure DNS Zone&lt;/h3>
+&lt;h4 id="high-availability-and-performance">High Availability and Performance&lt;/h4>
+&lt;p>Azure DNS is backed by a &lt;strong>highly available, global network&lt;/strong>, ensuring low-latency name resolution for users anywhere in the world.&lt;/p></description></item></channel></rss>

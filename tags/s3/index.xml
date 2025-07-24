@@ -1,34 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>S3 on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/s3/</link><description>Recent content in S3 on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/s3/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
  &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/s3.svg"
- alt="Amazon S3" style="height: 60px; margin-right: 12px" />
- &lt;h1 style="margin: 0">Amazon S3&lt;/h1>
+ alt="S3" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">S3&lt;/h2>
 &lt;/div>
 
-&lt;p>Amazon S3 (Simple Storage Service) is a highly scalable, durable, and secure object storage service offered by AWS. It is designed for storing and retrieving &lt;strong>any amount of data from anywhere on the web&lt;/strong>, making it ideal for cloud-native applications, data archiving, backups, and big data workloads.&lt;/p>
-&lt;p>Unlike traditional file systems or block storage, S3 stores data as &lt;strong>objects in buckets&lt;/strong> — each object includes the data, a key (name), and metadata. It’s a cornerstone of many AWS architectures due to its &lt;strong>simplicity, performance, and integration with other AWS services.&lt;/strong>&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/versioning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/versioning/</guid><description>&lt;h3 id="s3-versioning">S3 Versioning&lt;/h3>
+&lt;p>Amazon S3 (Simple Storage Service) is a highly scalable, durable, and secure object storage service offered by AWS. It is designed for storing and retrieving any amount of data from anywhere, making it ideal for web applications, backups, media storage, and big data workloads.&lt;/p>
+&lt;p>S3 stores data as objects within buckets, each consisting of the actual data, a key (unique name), and metadata. Its architecture supports virtually unlimited storage and seamless integration with many AWS services, making it a foundational component for cloud-native designs.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/versioning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/versioning/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/s3.svg"
+ alt="Versioning" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">
+ S3 | Versioning
+ &lt;/h2>
+&lt;/div>
+
 &lt;p>Amazon S3 &lt;strong>versioning&lt;/strong> is a feature that lets you preserve, retrieve, and restore every version of every object stored in a bucket. When versioning is enabled, S3 automatically stores a &lt;strong>new version&lt;/strong> of the object every time it is modified or deleted — rather than overwriting or removing it.&lt;/p>
-&lt;p>This adds an extra layer of data protection and recovery, especially against &lt;strong>accidental deletes or unintentional overwrites&lt;/strong>.&lt;/p>
-&lt;hr>
-&lt;h3 id="how-versioning-works">How Versioning Works&lt;/h3>
-&lt;ul>
-&lt;li>Versioning is &lt;strong>enabled at the bucket level&lt;/strong>.&lt;/li>
-&lt;li>Once enabled, every object uploaded or modified will get a unique &lt;strong>version ID&lt;/strong>.&lt;/li>
-&lt;li>Deleting an object doesn’t remove it — instead, a &lt;strong>delete marker&lt;/strong> is added.&lt;/li>
-&lt;li>You can &lt;strong>retrieve or restore&lt;/strong> previous versions anytime.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3 id="key-characteristics">Key Characteristics&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>Version IDs&lt;/strong> are unique identifiers for each version of an object.&lt;/li>
-&lt;li>&lt;strong>Null version&lt;/strong>: Objects uploaded &lt;strong>before versioning is enabled&lt;/strong> have a null version.&lt;/li>
-&lt;li>Versioning cannot be fully disabled — only suspended once enabled.&lt;/li>
-&lt;li>Supports &lt;strong>lifecycle rules&lt;/strong> to manage older versions and clean up delete markers.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3 id="benefits-of-s3-versioning">Benefits of S3 Versioning&lt;/h3>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>Protection from Accidental Deletes&lt;/strong>&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/storage-classes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/storage-classes/</guid><description>&lt;h2 id="storage-classes">Storage Classes&lt;/h2>
+&lt;p>This adds an extra layer of data protection and recovery, especially against &lt;strong>accidental deletes or unintentional overwrites&lt;/strong>.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/storage-classes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/storage-classes/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/s3.svg"
+ alt="Storage Classes" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">
+ S3 | Storage Classes
+ &lt;/h2>
+&lt;/div>
+
+&lt;h2 id="storage-classes">Storage Classes&lt;/h2>
 &lt;p>S3 offers a range of storage classes to support different use cases and access patterns.&lt;/p>
 &lt;h3 id="key-classes">Key Classes&lt;/h3>
 &lt;ul>
@@ -41,7 +35,15 @@
 &lt;ul>
 &lt;li>Optimize storage costs by aligning data usage patterns with the right storage class.&lt;/li>
 &lt;li>Automate transitions using lifecycle rules.&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/s3/presigned-urls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/s3/presigned-urls/</guid><description>&lt;h2 id="pre-signed-urls">Pre-signed URLs&lt;/h2>
+&lt;/ul></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/presigned-urls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/presigned-urls/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/s3.svg"
+ alt="Pre-signed URLs" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">
+ S3 | Pre-signed URLs
+ &lt;/h2>
+&lt;/div>
+
+&lt;h2 id="pre-signed-urls">Pre-signed URLs&lt;/h2>
 &lt;p>Pre-signed URLs grant temporary access to S3 objects without making them publicly accessible.&lt;/p>
 &lt;h3 id="use-cases">Use Cases&lt;/h3>
 &lt;ul>

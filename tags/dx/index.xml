@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dx on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/dx/</link><description>Recent content in Dx on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/dx/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/direct_connect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/direct_connect/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/direct_connect.svg"
+ alt="Direct Connect" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Direct Connect&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Direct Connect (DX)&lt;/strong> provides a &lt;strong>dedicated, private network connection&lt;/strong> between your on-premises data center (or co-location) and AWS. It offers &lt;strong>lower latency&lt;/strong>, &lt;strong>higher throughput&lt;/strong>, and &lt;strong>consistent performance&lt;/strong> compared to public internet links.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-direct-connect">Benefits of Direct Connect&lt;/h3>
+&lt;h4 id="dedicated-network-path">Dedicated Network Path&lt;/h4>
+&lt;p>Avoid the variability of the internet by routing traffic over &lt;strong>private fiber links&lt;/strong> for consistent performance.&lt;/p></description></item></channel></rss>

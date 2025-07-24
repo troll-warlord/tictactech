@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nsg on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/nsg/</link><description>Recent content in Nsg on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/nsg/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/virtual_network/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/virtual_network/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/azure/virtual_network.svg"
+ alt="Virtual Network (VNet)" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Virtual Network (VNet)&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>Azure Virtual Network (VNet)&lt;/strong> is the foundational building block of networking in Azure. It provides &lt;strong>logical network isolation&lt;/strong>, enabling you to securely run virtual machines, containers, and applications while maintaining complete control over IP addressing, DNS, routing, and network security.&lt;/p>
+&lt;p>VNets are analogous to traditional &lt;strong>on-premises networks&lt;/strong>, but with the added scalability, flexibility, and ease of integration that Azure provides.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Provisioning on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/provisioning/</link><description>Recent content in Provisioning on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/provisioning/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/storage_class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/storage_class/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/storage_class.svg"
+ alt="Storage Class" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Storage Class&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>StorageClass&lt;/strong> in Kubernetes defines different classes of storage available in a cluster. It allows dynamic provisioning of &lt;strong>PersistentVolumes&lt;/strong> using various backend storage systems like AWS EBS, Azure Disk, GCE PD, or on-prem CSI drivers.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-storageclass">Benefits of StorageClass&lt;/h3>
+&lt;h4 id="dynamic-volume-provisioning">Dynamic Volume Provisioning&lt;/h4>
+&lt;p>Users can request storage without manually creating PersistentVolumes. Kubernetes provisions and binds them automatically based on the StorageClass.&lt;/p></description></item></channel></rss>

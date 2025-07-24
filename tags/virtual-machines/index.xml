@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Virtual Machines on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/virtual-machines/</link><description>Recent content in Virtual Machines on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/virtual-machines/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/ec2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/ec2/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/ec2.svg"
+ alt="Amazon EC2" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Amazon EC2&lt;/h2>
+&lt;/div>
+
+&lt;p>Amazon Elastic Compute Cloud (EC2) is a foundational AWS service that provides scalable virtual servers (instances) in the cloud. It allows you to launch compute resources on-demand, with complete control over operating system, instance type, networking, and storage configurations.&lt;/p>
+&lt;p>With EC2, you can build flexible, resizable, and secure compute infrastructure without investing in physical hardware. Whether you&amp;rsquo;re deploying a single web server or a fleet of services across multiple regions, EC2 adapts to your scaling and performance needs.&lt;/p></description></item></channel></rss>

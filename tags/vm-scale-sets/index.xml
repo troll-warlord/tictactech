@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vm Scale Sets on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/vm-scale-sets/</link><description>Recent content in Vm Scale Sets on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/vm-scale-sets/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/compute_galery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/compute_galery/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/azure/compute_galery.svg"
+ alt="Compute Gallery" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Compute Gallery&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>Azure Compute Gallery&lt;/strong> (formerly Shared Image Gallery) is a service that enables you to manage, share, and distribute custom VM images across your organization, regions, and subscriptions. It&amp;rsquo;s designed for &lt;strong>image versioning, scaling VM deployments&lt;/strong>, and &lt;strong>simplifying image management at scale&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-azure-compute-gallery">Benefits of Azure Compute Gallery&lt;/h3>
+&lt;h4 id="centralized-image-management">Centralized Image Management&lt;/h4>
+&lt;p>Store and organize your custom VM images in a gallery with image definitions and versions. This helps enforce consistency across environments and teams.&lt;/p></description></item></channel></rss>

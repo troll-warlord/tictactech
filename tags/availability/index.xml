@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Availability on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/availability/</link><description>Recent content in Availability on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/availability/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/auto_scaling_group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/auto_scaling_group/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/auto_scaling_group.svg"
+ alt="Auto Scaling Group" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Auto Scaling Group&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Auto Scaling Groups (ASGs)&lt;/strong> automatically manage and scale a fleet of &lt;strong>EC2 instances&lt;/strong> based on defined policies, demand, and health checks — ensuring &lt;strong>availability&lt;/strong>, &lt;strong>fault tolerance&lt;/strong>, and &lt;strong>cost optimization&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-asg">Benefits of ASG&lt;/h3>
+&lt;h4 id="dynamic-scalability">Dynamic Scalability&lt;/h4>
+&lt;p>Scale instances &lt;strong>horizontally&lt;/strong> based on metrics like CPU, memory, request count, or even custom CloudWatch metrics.&lt;/p></description></item><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/replica_set/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/replica_set/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/replica_set.svg"
+ alt="ReplicaSet" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">ReplicaSet&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>ReplicaSet&lt;/strong> ensures that a specified number of pod replicas are &lt;strong>running at all times&lt;/strong> in a Kubernetes cluster. If a pod crashes or is deleted, the ReplicaSet brings up a replacement.&lt;/p>
+&lt;p>It is the &lt;strong>underlying controller used by Deployments&lt;/strong> to maintain pod availability.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-replicaset">Benefits of ReplicaSet&lt;/h3>
+&lt;h4 id="high-availability">High Availability&lt;/h4>
+&lt;p>Maintains the desired replica count automatically, ensuring uptime even if nodes fail.&lt;/p></description></item></channel></rss>

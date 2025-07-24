@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Manifest on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/manifest/</link><description>Recent content in Manifest on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/manifest/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/configmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/configmap/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/configmap.svg"
+ alt="ConfigMap" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">ConfigMap&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>ConfigMap&lt;/strong> in Kubernetes is an API object used to store non-sensitive configuration data as key-value pairs. It allows application configuration to be externalized from container images, enabling separation of config and code — a core principle of modern cloud-native architecture.&lt;/p>
+&lt;p>ConfigMaps are especially useful for injecting environment-specific settings, URLs, flags, or app-level parameters without needing to rebuild or redeploy your application containers.&lt;/p></description></item></channel></rss>

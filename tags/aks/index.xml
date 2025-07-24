@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aks on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/aks/</link><description>Recent content in Aks on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/aks/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/azure/azure_kubernetes_service/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/azure/azure_kubernetes_service/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/azure/azure_kubernetes_service.svg"
+ alt="Azure Kubernetes Service" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Azure Kubernetes Service&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>Azure Kubernetes Service (AKS)&lt;/strong> is a fully managed Kubernetes service by Microsoft Azure. It simplifies deploying, managing, and scaling containerized applications using Kubernetes in the cloud.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-aks">Benefits of AKS&lt;/h3>
+&lt;h4 id="fully-managed-control-plane">Fully Managed Control Plane&lt;/h4>
+&lt;p>Azure handles the Kubernetes control plane, including upgrades, patching, and security — reducing operational overhead.&lt;/p></description></item></channel></rss>

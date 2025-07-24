@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Serviceaccount on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/serviceaccount/</link><description>Recent content in Serviceaccount on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/serviceaccount/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/kubernetes/service_account/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/kubernetes/service_account/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/kubernetes/service_account.svg"
+ alt="Service Account" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Service Account&lt;/h2>
+&lt;/div>
+
+&lt;p>A &lt;strong>ServiceAccount&lt;/strong> in Kubernetes provides an identity for processes running inside a pod. It&amp;rsquo;s used by the pod to authenticate with the Kubernetes API server and access resources within the cluster.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-serviceaccount">Benefits of ServiceAccount&lt;/h3>
+&lt;h4 id="scoped-access-control">Scoped Access Control&lt;/h4>
+&lt;p>Each ServiceAccount can be granted fine-grained access using &lt;strong>RBAC&lt;/strong> policies, limiting what it can read, modify, or list in the cluster.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lambda on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/lambda/</link><description>Recent content in Lambda on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/lambda/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/lambda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/lambda/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/lambda.svg"
+ alt="Lambda" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Lambda&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Lambda&lt;/strong> lets you run code without provisioning or managing servers. You just upload your function, and Lambda runs it in response to events, auto-scaling as needed.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="key-features">Key Features&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Event-driven execution&lt;/strong> via triggers (S3, API Gateway, SQS, etc.).&lt;/li>
+&lt;li>&lt;strong>Automatic scaling&lt;/strong> based on request volume.&lt;/li>
+&lt;li>&lt;strong>Pay-per-use&lt;/strong>: Only for execution time.&lt;/li>
+&lt;li>Built-in &lt;strong>retry logic&lt;/strong> and &lt;strong>dead-letter queues&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>No server maintenance.&lt;/li>
+&lt;li>Easily integrates with AWS ecosystem.&lt;/li>
+&lt;li>Highly scalable for asynchronous tasks.&lt;/li>
+&lt;li>Supports major languages (Python, Node.js, Java, Go, etc.).&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Backend APIs (with API Gateway).&lt;/li>
+&lt;li>Real-time file processing (e.g., S3 image resizing).&lt;/li>
+&lt;li>Scheduled jobs (like CRON via EventBridge).&lt;/li>
+&lt;li>Event processing from SQS, DynamoDB, or Kinesis.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Keep functions &lt;strong>stateless and small&lt;/strong>.&lt;/li>
+&lt;li>Use &lt;strong>layers&lt;/strong> for shared dependencies.&lt;/li>
+&lt;li>Monitor with &lt;strong>CloudWatch Logs and X-Ray&lt;/strong>.&lt;/li>
+&lt;li>Limit execution time and memory for efficiency.&lt;/li>
+&lt;li>Avoid cold starts with &lt;strong>provisioned concurrency&lt;/strong> if needed.&lt;/li>
+&lt;/ul></description></item></channel></rss>

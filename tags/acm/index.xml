@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Acm on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/acm/</link><description>Recent content in Acm on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/acm/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/certificate_manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/certificate_manager/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/certificate_manager.svg"
+ alt="Certificate Manager" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Certificate Manager&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Certificate Manager (ACM)&lt;/strong> provides free &lt;strong>SSL/TLS certificates&lt;/strong> for use with AWS services, enabling &lt;strong>secure communications&lt;/strong> over HTTPS and encryption in transit — without manual certificate management.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="benefits-of-acm">Benefits of ACM&lt;/h3>
+&lt;h4 id="free-and-managed-ssltls-certificates">Free and Managed SSL/TLS Certificates&lt;/h4>
+&lt;p>Issue &lt;strong>public or private certificates&lt;/strong> at no cost. ACM handles renewals and lifecycle management automatically.&lt;/p></description></item></channel></rss>

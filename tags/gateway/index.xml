@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gateway on Tic Tac Tech</title><link>https://troll-warlord.github.io/tictactech/tags/gateway/</link><description>Recent content in Gateway on Tic Tac Tech</description><generator>Hugo</generator><language>en</language><atom:link href="https://troll-warlord.github.io/tictactech/tags/gateway/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://troll-warlord.github.io/tictactech/blogs/aws/lambda-copy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://troll-warlord.github.io/tictactech/blogs/aws/lambda-copy/</guid><description>&lt;div style="display: flex; align-items: center; margin-bottom: 20px">
+ &lt;img src="https://troll-warlord.github.io/tictactech/images/aws/lambda%20copy.svg"
+ alt="Transit Gateway" style="height: 60px; margin-right: 12px" />
+ &lt;h2 style="margin: 0">Transit Gateway&lt;/h2>
+&lt;/div>
+
+&lt;p>&lt;strong>AWS Transit Gateway&lt;/strong> acts as a &lt;strong>hub&lt;/strong> to connect multiple VPCs, on-prem networks (via VPN or Direct Connect), and other AWS accounts using a &lt;strong>centralized router&lt;/strong> model.&lt;/p>
+&lt;hr>
+&lt;h3 id="topics">Topics&lt;/h3>
+&lt;div class="render-topic-links">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+ .link-hover:hover {
+ text-decoration: underline;
+ color: #0056b3; 
+ }
+&lt;/style>
+
+&lt;hr>
+&lt;h3 id="key-features">Key Features&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Hub-and-spoke&lt;/strong> architecture.&lt;/li>
+&lt;li>Connects &lt;strong>VPCs&lt;/strong>, &lt;strong>VPNs&lt;/strong>, and &lt;strong>Direct Connect&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Inter-region peering&lt;/strong> support.&lt;/li>
+&lt;li>Supports &lt;strong>route propagation&lt;/strong> and &lt;strong>domain segmentation&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="benefits">Benefits&lt;/h3>
+&lt;ul>
+&lt;li>Simplifies network complexity.&lt;/li>
+&lt;li>Centralized control and routing.&lt;/li>
+&lt;li>Supports &lt;strong>thousands of attachments&lt;/strong>.&lt;/li>
+&lt;li>Reduces need for full mesh peering.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="use-cases">Use Cases&lt;/h3>
+&lt;ul>
+&lt;li>Large-scale multi-VPC environments.&lt;/li>
+&lt;li>Hybrid connectivity with multiple on-prem sites.&lt;/li>
+&lt;li>Centralized firewall or inspection via service insertion.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>Use &lt;strong>route tables&lt;/strong> for segmentation.&lt;/li>
+&lt;li>Monitor with &lt;strong>Transit Gateway Flow Logs&lt;/strong>.&lt;/li>
+&lt;li>Combine with &lt;strong>Resource Access Manager (RAM)&lt;/strong> for cross-account sharing.&lt;/li>
+&lt;li>Integrate with &lt;strong>Network Firewall&lt;/strong> for traffic control.&lt;/li>
+&lt;/ul></description></item></channel></rss>
