@@ -1,7 +1,7 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- range where .Site.Pages "Kind" "in" (slice "page" "section") -}}
   {{- if not .Params.excludeFromSearch }}
-    {{- $.Scratch.Add "index" (dict "title" .Title "description" .Params.description "content" .Plain "url" .RelPermalink) }}
+    {{- $.Scratch.Add "index" (dict "title" .Title "description" .Params.description "content" .Plain "url" .RelPermalink "tags" .Params.Tags "platform" .Params.Platform) }}
   {{- end }}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}

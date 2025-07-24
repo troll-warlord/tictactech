@@ -7,7 +7,7 @@ tags: ["aws", "s3", "versioning", "object versioning"]
 platform: aws
 ---
 
-### S3 Versioning
+{{< topic-header >}}
 
 Amazon S3 **versioning** is a feature that lets you preserve, retrieve, and restore every version of every object stored in a bucket. When versioning is enabled, S3 automatically stores a **new version** of the object every time it is modified or deleted — rather than overwriting or removing it.
 
@@ -24,7 +24,7 @@ This adds an extra layer of data protection and recovery, especially against **a
 
 ---
 
-### Key Characteristics
+#### Key Characteristics
 
 - **Version IDs** are unique identifiers for each version of an object.
 - **Null version**: Objects uploaded **before versioning is enabled** have a null version.
@@ -33,7 +33,7 @@ This adds an extra layer of data protection and recovery, especially against **a
 
 ---
 
-### Benefits of S3 Versioning
+##### Benefits of S3 Versioning
 
 1. **Protection from Accidental Deletes**
 

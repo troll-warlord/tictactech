@@ -1,0 +1,23 @@
+<div class="render-topic-links">
+  {{ range .Page.Pages.ByWeight }}
+  <section class="topic-link">
+    <a
+      href="{{ .RelPermalink }}"
+      class="text-decoration-none text-primary fw-semibold link-hover"
+      stye="text-decoration: none;"
+      onmouseover="this.style.textDecoration='underline'; this.style.color='#0056b3';"
+      onmouseout="this.style.textDecoration='none'; this.style.color='';"
+    >
+      <h5>{{ .LinkTitle }}</h5>
+    </a>
+  </section>
+  {{ end }}
+</div>
+
+<style>
+  /* Optional: customize hover if you want more than Bootstrap provides */
+  .link-hover:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue on hover */
+  }
+</style>

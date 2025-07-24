@@ -5,7 +5,12 @@ weight: 30
 type: docs
 tags: ["aws", "s3", "storage classes", "tiered storage"]
 platform: aws
+url: storage-classes
+# build:
+#   render: false
 ---
+
+{{< topic-header >}}
 
 ## Storage Classes
 
